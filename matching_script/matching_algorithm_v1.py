@@ -46,7 +46,7 @@ class MatchingAlgorithm:
         mentee_industries = self.mentee_df.iloc[j, 2 + self.num_preferences]
         industries = mentor_industries.intersection(mentee_industries)
         if len(industries) > 0:
-          temp_scores[i][j] = 10 * self.num_questions + (10 * len(industries) * self.num_questions / ((len(mentor_industries) + len(mentee_industries) / 2)))
+          temp_scores[i][j] = 10 * self.num_questions + 10 * np.sqrt(len(industries))
 
     for i in range(self.mentor_df.shape[0]):
       for j in range(self.mentee_df.shape[0]):
