@@ -1,0 +1,201 @@
+ID,Mentor or Mentee?,Preference 1,Preference 2,Preference 3,Preference 4,Preference 5,Industry,Rank 1,Rank 2,Rank 3,Rank 4,Rank 5
+99,Mentor,10,22,45,62,92,Biotechnology,6,4,3,10,6
+98,Mentor,10,36,47,76,98,Media and Entertainment,5,1,9,6,6
+97,Mentor,1,28,49,63,91,Biotechnology,1,5,3,3,4
+96,Mentor,17,33,56,62,92,Manufacturing,3,2,4,2,3
+95,Mentor,8,36,47,74,93,Consumer Goods,8,3,6,10,3
+94,Mentor,2,24,40,72,99,Construction,10,9,7,8,8
+93,Mentor,11,23,43,69,95,Real Estate,5,2,7,8,7
+92,Mentor,18,38,56,70,93,Manufacturing,10,7,6,7,6
+91,Mentor,5,28,46,60,90,Construction,9,6,4,2,1
+90,Mentor,12,28,43,78,99,Agriculture,1,6,7,6,10
+89,Mentor,4,27,40,75,93,Automotive,4,6,3,4,7
+88,Mentor,18,26,52,67,81,Financial Services,4,8,3,10,1
+87,Mentor,0,30,57,65,97,Energy,8,2,6,9,10
+86,Mentor,17,39,55,72,82,Manufacturing,3,7,4,10,10
+85,Mentor,10,27,56,77,98,Hospitality,9,9,7,7,10
+84,Mentor,12,26,53,68,94,Real Estate,3,5,10,10,6
+83,Mentor,10,24,54,62,84,Retail,3,2,8,3,5
+82,Mentor,12,26,51,77,81,Consumer Goods,5,8,2,3,9
+81,Mentor,5,28,49,72,81,Biotechnology,10,6,2,8,6
+80,Mentor,1,29,48,78,88,Agriculture,4,6,5,3,3
+79,Mentor,0,20,50,72,87,Retail,9,8,4,6,3
+78,Mentor,18,27,59,79,97,Media and Entertainment,3,5,9,4,2
+77,Mentor,10,36,48,65,88,Telecommunications,7,8,4,7,10
+76,Mentor,13,30,59,64,99,Agriculture,8,10,1,6,4
+75,Mentor,15,36,59,67,92,Hospitality,10,7,4,9,5
+74,Mentor,17,31,47,76,89,Education,6,6,10,9,5
+73,Mentor,8,21,48,77,89,Healthcare,10,8,1,4,6
+72,Mentor,2,32,45,64,85,Biotechnology,7,1,3,3,7
+71,Mentor,17,29,47,76,89,Pharmaceuticals,5,10,9,4,2
+70,Mentor,0,34,56,64,83,Automotive,5,7,4,6,9
+69,Mentor,1,21,51,61,87,Financial Services,10,2,7,8,4
+68,Mentor,1,20,54,78,96,Automotive,6,8,2,7,4
+67,Mentor,3,28,52,71,93,Information Technology,9,8,6,7,9
+66,Mentor,17,26,50,62,97,Transportation and Logistics,3,1,8,7,1
+65,Mentor,2,20,48,68,87,Real Estate,4,9,8,1,3
+64,Mentor,18,25,57,73,84,Retail,9,7,8,6,9
+63,Mentor,19,25,43,74,99,Transportation and Logistics,2,4,10,9,5
+62,Mentor,4,39,59,77,80,Construction,6,9,2,1,5
+61,Mentor,8,20,51,64,99,Real Estate,4,9,3,7,10
+60,Mentor,4,30,48,71,94,Manufacturing,7,5,1,8,1
+59,Mentor,2,36,44,67,89,Healthcare,5,4,9,4,3
+58,Mentor,15,26,43,60,82,Aerospace,3,2,10,7,7
+57,Mentor,18,25,58,79,85,Automotive,2,3,2,5,6
+56,Mentor,14,36,41,72,96,Construction,3,1,6,4,6
+55,Mentor,2,24,46,79,87,Agriculture,8,9,5,5,7
+54,Mentor,5,39,54,66,81,Financial Services,3,1,1,5,3
+53,Mentor,15,35,40,77,89,Education,6,3,4,5,7
+52,Mentor,18,23,41,75,81,Transportation and Logistics,5,4,2,7,7
+51,Mentor,12,22,46,79,93,Manufacturing,3,7,6,2,4
+50,Mentor,19,37,46,72,84,Biotechnology,2,7,4,10,3
+49,Mentor,17,36,51,60,81,Consumer Goods,9,9,4,10,9
+48,Mentor,13,22,47,73,85,Manufacturing,9,9,1,9,10
+47,Mentor,3,24,59,72,81,Healthcare,2,1,3,5,3
+46,Mentor,9,25,57,79,99,Real Estate,3,1,1,5,9
+45,Mentor,11,24,41,70,81,Agriculture,7,9,8,5,2
+44,Mentor,6,25,58,65,86,Financial Services,9,9,8,4,5
+43,Mentor,10,27,45,79,95,Pharmaceuticals,1,7,3,8,3
+42,Mentor,18,34,46,67,84,Hospitality,8,1,3,10,7
+41,Mentor,10,35,47,65,87,Retail,8,10,4,6,1
+40,Mentor,17,31,59,75,89,Pharmaceuticals,2,1,1,6,5
+39,Mentor,1,28,52,63,80,Consumer Goods,1,9,1,4,2
+38,Mentor,17,38,40,74,91,Aerospace,1,6,3,8,4
+37,Mentor,8,20,52,75,99,Information Technology,10,8,3,5,1
+36,Mentor,19,21,43,68,95,Construction,8,9,10,5,8
+35,Mentor,1,27,59,64,86,Education,4,3,8,3,10
+34,Mentor,4,32,56,65,82,Education,4,5,2,5,5
+33,Mentor,10,34,56,75,83,Consumer Goods,7,1,1,6,2
+32,Mentor,15,25,43,70,80,Telecommunications,5,10,4,7,6
+31,Mentor,4,25,55,60,93,Real Estate,9,6,5,7,8
+30,Mentor,19,32,45,76,82,Biotechnology,2,10,1,10,4
+29,Mentor,1,31,45,76,80,Consumer Goods,9,8,2,2,6
+28,Mentor,0,33,41,76,97,Financial Services,9,10,6,6,2
+27,Mentor,5,36,41,61,84,Automotive,8,7,9,8,1
+26,Mentor,2,36,53,68,84,Energy,5,3,2,1,2
+25,Mentor,2,23,44,72,99,Education,9,2,7,3,4
+24,Mentor,0,30,46,73,88,Aerospace,2,10,8,10,5
+23,Mentor,10,39,58,77,87,Hospitality,9,10,5,1,7
+22,Mentor,0,21,42,69,91,Information Technology,7,2,9,7,1
+21,Mentor,19,21,57,71,94,Information Technology,1,7,10,6,10
+20,Mentor,6,37,51,62,91,Financial Services,7,10,4,6,2
+19,Mentor,8,20,58,68,85,Aerospace,10,7,4,5,4
+18,Mentor,4,29,45,65,80,Media and Entertainment,9,5,5,9,8
+17,Mentor,13,37,51,70,91,Education,5,9,7,2,9
+16,Mentor,10,31,40,69,85,Manufacturing,8,5,7,6,1
+15,Mentor,7,27,59,72,88,Education,1,5,6,10,1
+14,Mentor,9,24,42,69,84,Transportation and Logistics,1,9,6,5,3
+13,Mentor,6,24,41,79,95,Construction,10,10,10,8,2
+12,Mentor,12,24,54,61,88,Manufacturing,5,2,3,1,3
+11,Mentor,12,37,48,63,88,Education,4,5,6,4,1
+10,Mentor,18,21,46,74,86,Information Technology,8,4,2,9,9
+9,Mentor,9,27,46,76,88,Real Estate,5,9,5,4,1
+8,Mentor,14,35,42,70,83,Construction,4,5,2,9,8
+7,Mentor,0,35,56,61,90,Construction,5,6,4,1,1
+6,Mentor,6,29,43,68,86,Consumer Goods,8,7,7,4,2
+5,Mentor,16,35,40,67,94,Mining,8,6,2,1,1
+4,Mentor,18,33,45,65,81,Energy,9,8,6,10,5
+3,Mentor,18,33,57,76,93,Hospitality,4,5,3,2,4
+2,Mentor,6,21,58,63,88,Consumer Goods,4,1,4,1,7
+1,Mentor,0,28,58,62,93,Telecommunications,2,8,3,10,5
+0,Mentor,8,25,46,64,82,Transportation and Logistics,4,1,5,5,1
+99,Mentee,17,35,40,75,80,Information Technology,9,2,10,7,7
+98,Mentee,12,20,51,78,86,Pharmaceuticals,1,7,4,8,8
+97,Mentee,8,36,44,76,85,Pharmaceuticals,5,8,6,2,4
+96,Mentee,9,33,48,71,98,Biotechnology,4,1,8,9,4
+95,Mentee,14,28,57,75,91,Construction,7,7,9,4,8
+94,Mentee,12,24,42,75,82,Financial Services,10,9,5,10,3
+93,Mentee,9,32,55,77,81,Transportation and Logistics,9,9,2,2,5
+92,Mentee,19,34,58,65,97,Agriculture,1,1,9,5,3
+91,Mentee,2,24,41,68,95,Hospitality,1,8,4,1,10
+90,Mentee,2,23,52,67,92,Media and Entertainment,3,3,3,10,7
+89,Mentee,14,24,50,66,94,Agriculture,4,9,6,7,3
+88,Mentee,10,20,44,63,85,Agriculture,1,4,10,2,1
+87,Mentee,10,32,45,73,95,Pharmaceuticals,7,3,1,4,6
+86,Mentee,18,32,41,67,96,Real Estate,5,5,7,5,5
+85,Mentee,17,37,57,72,80,Energy,4,3,3,7,8
+84,Mentee,19,39,52,61,86,Biotechnology,7,6,3,6,4
+83,Mentee,13,20,51,72,98,Agriculture,2,6,4,2,10
+82,Mentee,8,34,59,65,99,Consumer Goods,10,10,10,6,7
+81,Mentee,16,34,46,78,91,Retail,5,9,4,3,1
+80,Mentee,5,35,54,79,87,Retail,10,9,2,7,5
+79,Mentee,13,20,54,74,87,Media and Entertainment,9,8,4,3,1
+78,Mentee,12,30,40,78,81,Hospitality,2,1,2,4,2
+77,Mentee,14,30,43,71,81,Education,8,9,3,10,8
+76,Mentee,5,37,48,63,90,Hospitality,4,8,2,2,4
+75,Mentee,12,24,51,65,93,Consumer Goods,9,1,3,8,10
+74,Mentee,4,23,55,65,80,Aerospace,4,7,8,5,2
+73,Mentee,4,23,44,60,89,Consumer Goods,5,6,7,6,6
+72,Mentee,13,22,45,78,97,Manufacturing,7,4,7,7,10
+71,Mentee,14,33,47,60,88,Real Estate,7,10,4,7,9
+70,Mentee,8,38,43,62,99,Manufacturing,5,1,9,7,10
+69,Mentee,6,29,51,63,83,Agriculture,6,6,2,7,1
+68,Mentee,0,21,59,63,86,Biotechnology,7,2,5,8,10
+67,Mentee,8,33,50,79,89,Consumer Goods,9,10,4,9,5
+66,Mentee,9,34,53,69,97,Information Technology,9,7,6,6,9
+65,Mentee,1,22,52,75,93,Pharmaceuticals,5,9,5,3,8
+64,Mentee,8,32,44,60,92,Financial Services,4,6,9,10,3
+63,Mentee,10,38,49,78,96,Hospitality,6,10,1,8,2
+62,Mentee,4,37,51,77,83,Hospitality,1,4,3,7,6
+61,Mentee,1,35,44,76,95,Real Estate,1,1,10,9,8
+60,Mentee,14,31,43,60,99,Automotive,3,4,4,5,2
+59,Mentee,5,26,40,68,98,Information Technology,4,10,2,8,1
+58,Mentee,14,27,41,69,83,Energy,1,7,4,6,3
+57,Mentee,19,34,42,68,94,Financial Services,10,2,10,1,6
+56,Mentee,0,33,50,66,94,Financial Services,3,9,7,5,5
+55,Mentee,8,22,41,68,98,Healthcare,5,4,9,4,3
+54,Mentee,19,24,46,74,80,Information Technology,1,4,5,2,3
+53,Mentee,7,22,45,61,80,Transportation and Logistics,10,9,7,5,9
+52,Mentee,19,26,48,64,89,Education,8,1,5,7,9
+51,Mentee,13,31,59,67,86,Financial Services,10,4,2,3,7
+50,Mentee,17,28,58,66,83,Manufacturing,10,9,4,7,3
+49,Mentee,14,39,40,67,95,Telecommunications,3,1,10,9,6
+48,Mentee,11,37,46,66,82,Information Technology,2,1,1,6,3
+47,Mentee,15,24,42,75,93,Energy,10,6,10,3,10
+46,Mentee,8,29,59,79,87,Manufacturing,3,3,2,2,1
+45,Mentee,18,28,48,62,81,Telecommunications,10,8,4,4,10
+44,Mentee,15,35,54,69,98,Pharmaceuticals,4,5,9,9,2
+43,Mentee,3,32,49,60,93,Energy,10,7,8,9,6
+42,Mentee,12,29,58,67,88,Education,10,3,6,2,9
+41,Mentee,2,37,55,73,85,Hospitality,7,2,5,7,2
+40,Mentee,3,32,47,66,96,Transportation and Logistics,8,6,3,8,5
+39,Mentee,4,28,56,78,97,Biotechnology,6,7,6,7,1
+38,Mentee,16,33,54,79,86,Transportation and Logistics,6,3,3,4,3
+37,Mentee,2,25,56,75,97,Retail,8,8,1,7,9
+36,Mentee,18,37,49,70,87,Automotive,5,8,4,2,10
+35,Mentee,14,35,55,68,84,Healthcare,10,10,1,9,7
+34,Mentee,9,31,41,74,85,Pharmaceuticals,3,3,3,4,3
+33,Mentee,8,23,44,73,88,Financial Services,3,4,9,10,1
+32,Mentee,8,28,51,77,98,Manufacturing,4,7,8,1,1
+31,Mentee,14,23,50,74,89,Education,5,1,10,6,5
+30,Mentee,2,31,54,79,88,Telecommunications,3,6,4,3,6
+29,Mentee,6,30,40,61,87,Media and Entertainment,10,6,2,3,2
+28,Mentee,16,22,54,79,85,Financial Services,1,9,6,7,1
+27,Mentee,11,31,43,77,94,Information Technology,5,7,5,5,2
+26,Mentee,18,33,49,67,90,Consumer Goods,1,10,5,3,8
+25,Mentee,10,38,44,65,81,Construction,10,3,1,5,5
+24,Mentee,5,25,50,64,95,Information Technology,1,9,10,5,7
+23,Mentee,11,21,46,66,90,Real Estate,5,7,5,5,6
+22,Mentee,10,32,57,79,85,Healthcare,7,9,9,10,1
+21,Mentee,5,27,54,75,97,Pharmaceuticals,9,2,4,1,5
+20,Mentee,18,27,54,61,86,Retail,6,10,9,9,9
+19,Mentee,7,38,44,77,81,Information Technology,10,9,7,5,6
+18,Mentee,9,33,43,77,85,Manufacturing,6,8,4,9,10
+17,Mentee,4,23,44,68,83,Retail,6,5,5,4,3
+16,Mentee,7,27,52,68,97,Retail,7,8,3,1,8
+15,Mentee,13,33,44,61,98,Transportation and Logistics,6,10,3,1,10
+14,Mentee,3,31,54,65,98,Aerospace,5,9,3,4,10
+13,Mentee,12,27,51,76,90,Pharmaceuticals,7,4,1,5,1
+12,Mentee,14,38,41,60,96,Media and Entertainment,1,10,9,2,4
+11,Mentee,5,26,59,60,94,Media and Entertainment,1,10,6,1,7
+10,Mentee,13,38,51,64,83,Financial Services,4,5,4,8,10
+9,Mentee,14,22,43,60,93,Media and Entertainment,8,9,7,9,8
+8,Mentee,2,23,58,66,92,Energy,8,1,10,4,9
+7,Mentee,10,24,43,65,84,Agriculture,6,6,9,2,3
+6,Mentee,3,26,49,74,84,Automotive,3,6,6,2,4
+5,Mentee,18,24,49,61,98,Hospitality,2,5,3,4,7
+4,Mentee,13,33,49,68,88,Automotive,4,2,1,2,7
+3,Mentee,9,28,47,78,85,Energy,2,7,7,9,8
+2,Mentee,6,30,46,73,89,Healthcare,5,3,7,9,1
+1,Mentee,11,36,49,70,99,Transportation and Logistics,2,7,3,1,9
+0,Mentee,16,21,59,67,81,Media and Entertainment,6,4,8,6,5
