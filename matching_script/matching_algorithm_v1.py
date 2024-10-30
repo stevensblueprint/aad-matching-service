@@ -53,13 +53,13 @@ class MatchingAlgorithm:
         residual_sum = (10 - (self.mentor_df.iloc[i,3+self.num_preferences:] - self.mentee_df.iloc[j,3+self.num_preferences:]).abs()).sum()
         temp_scores[i][j] += residual_sum
 
-    # Normalize the data to range from 0 to 99 and add to scores
+    # Normalize the data to range from 0 to self.base - 1 and add to scores
     temp_scores = (temp_scores - temp_scores.min()) * (self.base - 1) / (temp_scores.max() - temp_scores.min())
     self.scores += temp_scores
 
     # Create array of mentor and mentee preferences based on the highest score
-    self.mentor_preferences = np.zeros((self.size, self.size))
-    self.mentee_preferences = np.zeros((self.size, self.size))
+    self.mentor_preferences = np.zeros((self.size, self.size), dtype = int)
+    self.mentee_preferences = np.zeros((self.size, self.size), dtype = int)
 
     for i in range(self.size):
       self.mentor_preferences[i] = self.scores[i].argsort()[::-1]
@@ -104,8 +104,8 @@ class MatchingAlgorithm:
     mentor_matches = 0
     mentee_matches = 0
     for mentor, mentee in self.pairs.items():
-      mentor_pref = self.mentor_preferences[int(mentor)]
-      mentee_pref = self.mentee_preferences[int(mentee)]
+      mentor_pref = self.mentor_preferences[mentor]
+      mentee_pref = self.mentee_preferences[mentee]
       if mentor_pref.index(mentee) < self.num_preferences:
         mentor_matches += 1
       if mentee_pref.index(mentor) < self.num_preferences:
@@ -119,7 +119,7 @@ class NameParser:
     self.pairs = pairs
     self.mentors = mentors
     self.mentees = mentees
-  
+
   def parse(self):
     self.pairs = pd.DataFrame(self.pairs, index=[0]).melt(var_name='Mentor', value_name='Mentee')
     self.pairs = pd.merge(self.pairs, self.mentors, left_on='Mentor', right_on=self.mentors.columns[0])
