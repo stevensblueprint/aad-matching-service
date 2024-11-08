@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import time
 
 class MatchingAlgorithm:
   def __init__(self, df, num_preferences, num_questions, base = 100, mentor_weight = 15, mentee_weight = 10):
@@ -16,9 +17,12 @@ class MatchingAlgorithm:
     self.mentee_df = self.mentee_df.sort_values(by=self.mentee_df.columns[0])
 
   def create_pairs(self):
+    start = time.time()
     self.concat_industry()
     self.calculate_scores()
     self.match_pairs()
+    stop = time.time()
+    print(f'Created pairs in {round(stop-start,2)} seconds')
     return self.pairs
 
   def concat_industry(self):
