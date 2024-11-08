@@ -1,0 +1,401 @@
+ID,Mentor or Mentee?,Preference 1,Preference 2,Preference 3,Preference 4,Preference 5,Preference 6,Preference 7,Preference 8,Preference 9,Preference 10,Preference 11,Preference 12,Preference 13,Preference 14,Preference 15,Industry,Rank 1,Rank 2,Rank 3,Rank 4,Rank 5,Rank 6,Rank 7
+0,Mentor,177,88,159,191,32,122,14,34,25,29,20,39,65,2,131,Telecommunications;Automotive;Mining;Energy,10,4,5,9,6,2,7
+1,Mentor,144,34,157,142,6,70,28,55,18,128,73,15,66,43,41,Consumer Goods,5,7,6,3,4,10,2
+2,Mentor,187,163,24,130,39,80,181,42,199,195,4,55,132,18,26,Hospitality,8,5,9,1,10,7,6
+3,Mentor,167,163,45,30,13,84,2,123,76,136,103,164,196,62,87,Manufacturing;Biotechnology;Real Estate;Energy;Automotive,8,5,1,3,10,9,2
+4,Mentor,82,191,61,72,195,177,171,143,109,66,173,98,0,29,126,Consumer Goods;Biotechnology;Construction,1,8,6,9,4,5,10
+5,Mentor,28,68,8,138,121,2,79,167,149,63,143,33,41,157,48,Energy;Hospitality;Information Technology;Construction;Transportation and Logistics,2,9,10,3,1,5,6
+6,Mentor,64,74,161,21,46,25,51,29,52,120,113,12,119,178,49,Mining;Real Estate;Pharmaceuticals;Biotechnology,9,7,5,6,2,3,1
+7,Mentor,46,193,94,156,136,134,62,103,145,117,159,172,188,54,157,Hospitality,1,3,8,4,6,10,7
+8,Mentor,76,158,58,115,172,166,53,195,30,4,121,56,55,23,46,Transportation and Logistics;Biotechnology;Agriculture;Manufacturing,2,6,7,4,5,10,1
+9,Mentor,51,166,73,173,25,174,175,116,46,35,97,161,45,10,110,Automotive;Construction;Telecommunications,7,1,6,10,9,8,4
+10,Mentor,100,104,17,163,162,0,107,56,103,167,198,38,39,197,37,Manufacturing;Agriculture;Energy;Biotechnology;Construction,1,8,2,3,10,5,6
+11,Mentor,60,48,30,188,16,128,18,145,175,31,72,93,12,176,67,Manufacturing;Information Technology;Consumer Goods;Biotechnology,10,8,9,4,7,1,3
+12,Mentor,98,71,49,195,169,115,199,104,151,68,91,44,176,163,85,Agriculture,3,5,6,8,7,4,9
+13,Mentor,127,174,143,114,25,43,6,8,82,87,137,96,148,84,138,Transportation and Logistics,6,5,9,2,10,3,4
+14,Mentor,118,141,32,159,144,93,173,74,34,169,121,114,187,65,31,Construction;Biotechnology,7,6,1,5,10,2,3
+15,Mentor,140,150,68,197,104,133,16,115,32,143,12,154,135,59,83,Consumer Goods,4,6,9,7,3,1,8
+16,Mentor,59,19,183,0,64,42,166,142,69,181,157,55,36,45,16,Mining,4,10,7,6,8,1,2
+17,Mentor,132,106,60,184,34,151,137,149,186,86,191,188,103,129,80,Real Estate,8,7,3,9,5,6,1
+18,Mentor,72,170,148,31,138,199,174,86,43,198,60,113,20,2,64,Telecommunications;Real Estate,3,5,6,8,4,7,2
+19,Mentor,3,139,151,73,160,178,82,110,20,9,55,45,169,164,92,Pharmaceuticals;Consumer Goods;Hospitality;Telecommunications;Real Estate,3,4,6,9,7,1,8
+20,Mentor,190,128,146,197,20,25,52,100,182,12,165,43,148,97,120,Mining;Agriculture;Biotechnology,6,2,8,7,9,10,3
+21,Mentor,51,16,130,159,39,23,191,137,170,134,138,172,38,36,82,Mining;Biotechnology;Hospitality,6,1,7,3,10,4,2
+22,Mentor,180,94,136,155,25,157,156,39,144,198,60,103,38,146,28,Mining,8,1,10,3,7,2,6
+23,Mentor,105,173,48,178,109,96,144,24,125,71,197,7,31,84,107,Pharmaceuticals,2,1,4,9,3,7,10
+24,Mentor,100,33,144,170,23,98,117,190,146,103,149,71,34,187,142,Hospitality;Pharmaceuticals,10,7,4,3,1,5,8
+25,Mentor,163,33,155,191,72,186,40,49,130,182,59,56,111,80,149,Mining;Agriculture,9,6,1,5,8,4,10
+26,Mentor,187,5,9,180,101,94,115,185,18,35,191,73,24,86,98,Agriculture;Energy;Real Estate;Biotechnology;Pharmaceuticals,6,8,4,5,1,3,2
+27,Mentor,106,65,190,55,63,42,8,14,128,10,26,140,112,138,115,Energy;Construction,5,7,6,9,2,10,3
+28,Mentor,128,95,92,19,80,24,106,164,199,129,180,66,65,189,132,Telecommunications;Transportation and Logistics;Manufacturing;Biotechnology,3,8,7,2,6,4,1
+29,Mentor,69,5,60,63,72,40,141,75,73,156,182,80,175,21,191,Energy;Mining;Automotive,9,1,5,2,10,3,4
+30,Mentor,4,123,9,87,31,194,75,51,169,21,186,135,64,170,77,Automotive;Energy;Agriculture,4,2,10,5,6,9,8
+31,Mentor,111,29,134,84,41,13,103,108,95,59,46,167,184,42,3,Hospitality,7,6,9,8,2,10,4
+32,Mentor,20,58,111,189,188,116,119,165,112,11,134,100,167,175,97,Manufacturing,4,6,5,8,2,10,9
+33,Mentor,71,46,143,148,34,119,188,44,38,48,80,56,110,146,130,Biotechnology;Transportation and Logistics;Pharmaceuticals,10,1,7,6,3,8,5
+34,Mentor,106,179,90,35,172,147,154,58,66,184,177,152,28,92,127,Manufacturing,6,1,2,9,5,10,3
+35,Mentor,128,93,171,117,104,118,9,66,145,23,61,46,147,146,51,Automotive,2,1,7,10,6,4,8
+36,Mentor,181,66,119,129,135,92,176,10,99,95,84,109,134,4,16,Information Technology;Telecommunications,2,1,3,6,7,4,8
+37,Mentor,46,126,149,172,48,71,196,79,140,32,26,107,99,94,25,Automotive;Consumer Goods;Real Estate;Transportation and Logistics;Information Technology,7,5,8,10,9,6,4
+38,Mentor,26,23,183,44,190,60,76,122,11,18,88,156,116,168,21,Manufacturing;Transportation and Logistics;Hospitality,4,8,9,3,1,10,6
+39,Mentor,184,171,51,94,47,45,66,115,0,141,72,28,125,195,160,Construction,7,4,2,1,5,3,10
+40,Mentor,26,110,52,38,21,101,180,160,36,145,188,175,169,142,121,Automotive;Transportation and Logistics,4,10,6,9,3,5,7
+41,Mentor,55,102,8,170,70,123,159,82,34,15,129,140,100,183,195,Mining;Biotechnology;Energy;Construction,8,6,1,10,2,7,9
+42,Mentor,97,7,18,24,1,13,126,132,83,106,70,48,183,100,33,Biotechnology;Telecommunications,9,2,5,4,3,10,7
+43,Mentor,45,174,136,134,15,198,110,164,49,46,90,93,116,99,8,Pharmaceuticals;Energy;Consumer Goods;Telecommunications,9,3,4,2,1,5,6
+44,Mentor,60,71,121,39,3,84,181,111,88,45,115,77,53,10,20,Automotive;Manufacturing;Real Estate;Hospitality,2,1,8,10,5,4,6
+45,Mentor,93,29,12,136,31,135,95,11,35,15,22,183,146,1,49,Hospitality;Telecommunications;Construction;Manufacturing,7,9,1,10,4,3,5
+46,Mentor,36,6,198,148,64,30,46,57,161,50,48,163,168,193,105,Agriculture;Mining;Manufacturing,4,2,5,9,3,1,10
+47,Mentor,98,74,17,95,16,32,48,139,59,24,172,168,90,136,31,Telecommunications;Mining;Hospitality;Construction;Real Estate,5,4,2,3,10,1,9
+48,Mentor,14,195,76,137,43,13,148,187,168,103,30,179,125,98,105,Automotive;Pharmaceuticals;Real Estate,8,6,7,10,4,1,9
+49,Mentor,35,129,22,10,13,34,128,189,40,78,32,54,142,165,135,Agriculture;Telecommunications;Information Technology;Biotechnology;Construction,4,10,1,7,5,3,6
+50,Mentor,72,57,96,94,100,16,48,199,1,175,32,159,23,20,187,Manufacturing;Real Estate;Consumer Goods;Pharmaceuticals,4,2,1,8,5,9,10
+51,Mentor,63,198,103,113,114,156,193,122,145,118,49,155,166,88,36,Construction;Information Technology;Transportation and Logistics;Consumer Goods,10,4,5,2,1,7,6
+52,Mentor,183,13,4,21,166,180,67,105,115,113,44,160,46,118,0,Energy;Manufacturing;Automotive;Mining,3,8,2,4,1,10,9
+53,Mentor,137,93,139,178,28,108,168,64,133,174,126,128,7,130,54,Consumer Goods;Construction;Information Technology,8,10,7,5,4,1,9
+54,Mentor,151,104,92,144,90,84,99,20,85,41,127,73,13,77,5,Consumer Goods;Energy;Telecommunications;Hospitality,6,9,5,4,2,1,7
+55,Mentor,6,39,137,4,107,82,56,51,7,57,144,162,196,111,54,Pharmaceuticals;Energy;Information Technology,5,8,9,4,3,1,10
+56,Mentor,102,189,121,169,8,30,62,109,130,155,110,134,184,20,34,Telecommunications;Hospitality;Manufacturing,1,8,3,6,5,7,10
+57,Mentor,119,19,129,71,67,133,157,195,125,166,126,35,89,29,149,Automotive;Consumer Goods,4,3,9,7,5,2,6
+58,Mentor,169,123,163,172,8,156,122,36,51,55,188,19,43,35,192,Construction;Information Technology;Biotechnology;Real Estate,9,8,10,5,4,7,6
+59,Mentor,46,113,24,100,32,41,153,106,93,63,192,134,190,50,116,Agriculture;Automotive;Mining;Telecommunications,10,2,7,9,3,4,8
+60,Mentor,183,145,3,153,83,40,137,136,165,108,171,114,17,52,146,Mining;Automotive;Agriculture;Construction;Telecommunications,8,9,5,3,2,7,4
+61,Mentor,109,199,152,121,20,12,24,185,178,137,117,197,192,171,78,Manufacturing;Energy;Telecommunications;Agriculture;Real Estate,5,2,6,9,8,7,10
+62,Mentor,107,157,97,184,14,19,69,86,152,198,156,35,137,162,38,Pharmaceuticals;Information Technology;Construction;Mining,6,2,9,7,5,4,1
+63,Mentor,92,25,144,187,56,140,137,198,86,59,199,94,89,110,157,Information Technology;Consumer Goods;Telecommunications,9,1,2,8,7,10,5
+64,Mentor,55,85,62,155,135,99,139,96,58,194,9,63,70,140,14,Manufacturing;Mining;Hospitality;Pharmaceuticals;Automotive,3,7,2,4,5,1,10
+65,Mentor,22,78,18,40,152,126,156,104,166,171,170,122,153,195,144,Transportation and Logistics;Mining;Consumer Goods,3,4,2,10,1,7,6
+66,Mentor,63,11,118,103,112,142,189,157,121,98,94,46,54,0,117,Pharmaceuticals;Real Estate;Consumer Goods;Biotechnology,3,7,9,4,8,6,5
+67,Mentor,1,90,74,197,161,73,170,61,177,47,151,60,6,30,87,Transportation and Logistics;Real Estate,7,4,10,3,2,1,6
+68,Mentor,190,170,139,143,102,73,171,53,5,133,81,100,60,119,93,Construction;Hospitality;Automotive;Telecommunications;Agriculture,1,7,5,3,4,9,10
+69,Mentor,24,98,51,123,179,159,113,43,150,135,115,2,129,65,146,Information Technology;Agriculture;Transportation and Logistics;Hospitality;Consumer Goods,7,6,5,3,2,8,4
+70,Mentor,123,198,51,16,43,197,169,98,127,151,45,15,124,163,118,Consumer Goods,5,10,6,9,2,1,3
+71,Mentor,29,114,139,182,79,125,53,95,174,122,60,19,22,45,171,Telecommunications;Consumer Goods;Biotechnology;Hospitality,7,9,6,5,3,1,4
+72,Mentor,186,137,151,194,171,176,77,50,41,98,86,36,170,93,155,Telecommunications;Agriculture;Hospitality;Consumer Goods,9,6,5,8,1,3,2
+73,Mentor,199,29,140,147,25,179,85,37,121,61,46,22,113,96,78,Construction;Biotechnology;Real Estate;Manufacturing,5,4,9,8,10,3,2
+74,Mentor,148,152,33,104,26,38,162,41,131,171,19,107,16,110,199,Agriculture,4,6,9,8,2,3,1
+75,Mentor,88,40,101,135,138,153,87,97,126,114,28,9,106,83,91,Hospitality;Automotive;Energy;Manufacturing,6,2,9,1,10,7,8
+76,Mentor,3,94,84,4,165,170,191,103,126,62,41,177,181,183,35,Agriculture;Mining;Real Estate,9,3,8,4,6,1,2
+77,Mentor,102,24,57,91,58,17,49,161,157,72,21,88,86,168,190,Telecommunications;Transportation and Logistics;Biotechnology;Agriculture,9,10,8,4,2,3,6
+78,Mentor,43,127,85,16,144,157,130,66,146,9,166,26,48,102,76,Real Estate;Information Technology;Biotechnology;Pharmaceuticals,9,10,6,5,3,8,4
+79,Mentor,149,102,191,2,98,187,38,79,118,108,63,28,143,87,171,Hospitality;Telecommunications;Energy;Transportation and Logistics;Consumer Goods,5,9,8,3,7,6,4
+80,Mentor,145,107,184,199,126,136,73,178,179,181,89,162,131,120,122,Construction;Real Estate,1,4,3,6,2,10,7
+81,Mentor,141,39,174,90,17,44,99,22,121,66,64,164,2,54,19,Agriculture;Consumer Goods;Transportation and Logistics;Manufacturing,9,2,4,8,6,10,3
+82,Mentor,78,114,81,182,6,14,41,106,22,76,123,82,38,46,185,Agriculture;Manufacturing,5,3,2,7,10,6,8
+83,Mentor,181,121,39,86,123,62,185,41,176,1,46,70,69,198,35,Manufacturing;Agriculture;Pharmaceuticals;Consumer Goods;Real Estate,1,6,9,4,2,8,3
+84,Mentor,133,174,88,38,77,180,124,141,195,46,157,152,7,172,138,Construction;Consumer Goods;Biotechnology;Telecommunications,1,4,9,5,2,3,7
+85,Mentor,40,199,193,89,134,176,121,68,3,179,160,143,91,22,59,Telecommunications;Transportation and Logistics;Biotechnology,9,4,3,6,8,5,1
+86,Mentor,95,28,115,36,94,47,48,178,39,77,111,73,72,33,78,Manufacturing;Energy;Agriculture;Telecommunications,1,8,6,3,10,4,5
+87,Mentor,28,186,11,66,9,164,81,166,108,143,44,54,24,57,118,Transportation and Logistics;Mining;Consumer Goods;Agriculture;Real Estate,8,6,3,4,1,2,7
+88,Mentor,47,100,46,29,70,15,71,131,165,25,78,51,123,148,63,Telecommunications;Energy;Transportation and Logistics;Mining;Hospitality,10,9,2,6,4,3,1
+89,Mentor,111,43,126,34,165,134,120,78,197,118,169,102,10,174,113,Automotive;Energy;Construction;Manufacturing,3,7,6,5,1,8,9
+90,Mentor,198,106,114,163,17,115,140,158,50,108,142,126,92,193,153,Mining;Pharmaceuticals,1,6,2,4,8,7,5
+91,Mentor,124,193,31,186,65,165,72,11,86,177,169,23,160,189,118,Automotive;Biotechnology;Information Technology,5,7,3,2,6,10,8
+92,Mentor,7,147,139,12,106,68,97,10,33,21,103,15,120,143,119,Telecommunications;Transportation and Logistics,7,5,3,10,1,2,6
+93,Mentor,10,9,149,70,184,115,4,131,37,144,130,127,197,119,14,Agriculture;Manufacturing,2,4,5,6,10,8,1
+94,Mentor,185,106,26,159,72,82,22,186,45,29,80,170,198,9,191,Manufacturing;Transportation and Logistics;Information Technology;Mining;Hospitality,6,3,1,4,10,8,9
+95,Mentor,130,103,135,137,26,149,118,110,48,98,173,159,151,198,152,Manufacturing;Transportation and Logistics;Telecommunications,9,5,7,3,10,8,6
+96,Mentor,103,15,19,122,70,119,66,148,62,0,12,142,52,160,157,Pharmaceuticals,8,3,6,10,4,1,2
+97,Mentor,196,174,83,151,66,110,133,138,48,32,152,14,154,160,81,Hospitality;Biotechnology;Automotive,9,7,5,4,2,3,6
+98,Mentor,22,16,15,41,73,145,170,89,31,65,30,96,21,95,14,Transportation and Logistics,7,5,8,10,3,4,6
+99,Mentor,144,93,75,116,172,62,91,101,178,115,83,108,39,165,44,Manufacturing;Pharmaceuticals,6,1,9,3,4,5,2
+100,Mentor,155,74,188,35,55,69,88,160,31,117,125,108,5,17,165,Agriculture,1,6,5,4,2,7,9
+101,Mentor,96,160,190,109,167,48,50,106,192,57,135,90,77,155,158,Mining,7,5,3,4,1,6,9
+102,Mentor,161,147,64,190,154,92,11,66,51,62,106,22,73,167,79,Telecommunications;Manufacturing,6,7,2,8,9,4,10
+103,Mentor,1,16,20,48,66,97,0,198,137,151,87,41,107,49,80,Biotechnology,2,3,9,5,10,8,1
+104,Mentor,9,134,132,137,162,146,51,93,78,109,108,84,56,103,61,Real Estate;Pharmaceuticals;Construction;Information Technology,7,4,6,8,5,2,3
+105,Mentor,121,128,108,92,54,169,147,155,170,175,5,144,163,152,129,Transportation and Logistics;Mining;Consumer Goods,1,8,7,4,5,2,3
+106,Mentor,56,99,58,185,172,112,1,33,57,17,189,199,102,159,49,Manufacturing;Mining,2,9,5,8,10,4,6
+107,Mentor,48,44,49,106,93,42,119,18,23,8,38,152,197,120,156,Real Estate;Construction;Biotechnology;Information Technology;Hospitality,9,7,1,4,10,5,6
+108,Mentor,156,3,144,8,88,174,95,53,192,18,12,73,27,5,51,Telecommunications;Construction;Automotive,7,1,5,10,2,6,8
+109,Mentor,104,56,76,20,25,3,132,174,99,82,185,186,114,117,126,Telecommunications;Information Technology;Pharmaceuticals,6,4,2,3,9,10,8
+110,Mentor,115,42,10,14,44,187,67,31,46,92,56,21,147,63,30,Construction;Pharmaceuticals;Real Estate;Information Technology,8,7,2,1,6,3,10
+111,Mentor,177,145,42,130,79,93,23,19,67,118,114,197,46,64,98,Consumer Goods;Automotive,2,6,5,8,4,1,3
+112,Mentor,64,68,51,102,106,62,95,167,185,35,171,34,96,76,183,Pharmaceuticals;Telecommunications;Automotive;Construction,3,6,10,5,8,4,1
+113,Mentor,30,65,75,67,84,52,57,190,37,151,60,88,111,133,185,Real Estate,1,2,7,8,10,5,9
+114,Mentor,66,179,171,11,94,140,34,21,72,1,191,51,99,89,47,Construction,4,10,8,3,6,5,7
+115,Mentor,0,115,141,139,126,75,21,65,158,175,66,197,38,3,196,Construction;Mining;Manufacturing;Biotechnology;Telecommunications,5,10,1,3,6,4,7
+116,Mentor,90,123,23,50,105,169,155,113,38,86,140,81,57,49,63,Agriculture;Biotechnology;Telecommunications,10,5,3,7,8,4,9
+117,Mentor,197,196,124,159,153,17,98,68,79,36,138,43,37,143,76,Consumer Goods;Real Estate,4,5,10,1,9,3,8
+118,Mentor,5,78,18,170,164,29,10,89,136,142,98,194,51,63,4,Transportation and Logistics;Mining,6,8,1,10,5,9,7
+119,Mentor,163,15,32,56,78,18,195,37,38,172,151,45,55,59,44,Energy,9,5,10,7,2,1,6
+120,Mentor,89,84,31,12,85,191,135,100,170,144,13,6,43,75,174,Information Technology;Telecommunications;Manufacturing;Hospitality,3,5,10,7,4,2,6
+121,Mentor,12,41,30,153,97,171,109,0,63,188,90,48,111,180,34,Consumer Goods;Biotechnology;Construction;Hospitality,2,10,5,6,4,1,3
+122,Mentor,181,13,106,68,91,105,27,63,0,76,26,114,88,97,4,Transportation and Logistics;Hospitality;Mining,5,8,4,2,7,6,9
+123,Mentor,35,71,146,115,60,110,141,36,20,31,134,139,167,90,174,Automotive;Transportation and Logistics,10,7,2,1,3,4,8
+124,Mentor,36,31,6,170,30,192,175,194,173,119,33,153,161,86,26,Telecommunications;Mining,8,4,9,3,10,5,2
+125,Mentor,135,35,148,130,83,176,193,152,139,146,165,10,103,123,171,Automotive,8,5,9,2,1,3,6
+126,Mentor,186,88,9,52,128,116,167,17,45,182,171,191,50,31,113,Pharmaceuticals;Transportation and Logistics;Manufacturing,4,5,1,2,8,6,10
+127,Mentor,101,184,154,170,118,76,10,158,140,79,149,171,42,177,126,Biotechnology,7,3,2,5,1,4,9
+128,Mentor,141,69,181,98,186,53,1,187,146,18,189,36,193,14,3,Energy;Construction;Consumer Goods;Transportation and Logistics;Biotechnology,8,6,5,7,10,3,2
+129,Mentor,127,167,47,148,140,163,91,160,176,143,0,169,189,112,18,Information Technology;Automotive,2,9,6,10,8,7,4
+130,Mentor,177,187,134,97,140,189,172,99,1,148,94,122,130,139,5,Agriculture;Pharmaceuticals;Real Estate;Telecommunications;Construction,7,8,9,3,4,6,1
+131,Mentor,104,147,72,189,69,167,93,80,42,152,39,139,162,3,88,Construction,7,8,2,6,4,1,3
+132,Mentor,158,74,24,196,197,28,52,39,42,31,147,150,88,143,18,Energy;Consumer Goods;Agriculture,1,7,3,5,2,4,8
+133,Mentor,184,137,6,15,64,105,8,183,92,70,198,82,72,51,152,Telecommunications;Biotechnology;Energy,4,1,2,10,9,8,5
+134,Mentor,196,47,53,73,83,58,10,29,142,177,93,134,67,144,112,Energy;Agriculture,6,4,2,1,5,3,9
+135,Mentor,19,14,132,112,154,104,90,107,84,25,129,134,95,114,125,Consumer Goods;Hospitality;Information Technology;Transportation and Logistics;Telecommunications,10,1,4,9,2,5,3
+136,Mentor,177,0,162,109,151,36,190,63,23,40,146,135,170,130,52,Telecommunications,5,6,8,2,10,9,7
+137,Mentor,140,49,4,51,80,153,79,61,175,81,197,36,60,158,89,Automotive;Consumer Goods;Telecommunications;Mining;Transportation and Logistics,8,4,7,1,10,5,6
+138,Mentor,176,81,96,191,97,193,66,7,134,174,147,84,150,192,9,Real Estate,10,8,2,1,9,3,7
+139,Mentor,190,143,33,148,147,170,90,50,172,34,132,38,35,3,67,Telecommunications,7,10,5,4,9,2,3
+140,Mentor,198,112,187,28,182,71,74,126,181,128,163,49,31,147,149,Agriculture,7,3,8,1,9,4,10
+141,Mentor,22,154,185,137,31,62,53,197,13,142,156,88,181,121,129,Manufacturing;Automotive;Transportation and Logistics;Mining,3,4,6,8,10,9,2
+142,Mentor,17,5,35,50,124,189,184,85,55,134,177,1,119,197,92,Energy;Mining;Automotive,8,3,1,10,6,5,7
+143,Mentor,165,76,162,167,22,151,197,24,36,164,54,177,37,153,126,Biotechnology;Energy,8,7,5,3,1,2,9
+144,Mentor,144,45,21,18,161,179,91,113,97,146,162,121,68,94,107,Manufacturing;Pharmaceuticals;Telecommunications,9,3,2,10,1,7,6
+145,Mentor,105,135,92,72,185,70,154,108,18,119,21,176,193,153,103,Telecommunications;Energy;Manufacturing;Automotive,5,6,9,1,4,10,3
+146,Mentor,158,98,18,197,35,110,169,100,24,47,104,103,64,168,133,Construction,4,1,10,6,3,8,9
+147,Mentor,108,178,1,179,21,139,199,8,185,2,82,152,150,149,45,Pharmaceuticals;Transportation and Logistics;Manufacturing;Information Technology;Automotive,7,8,6,2,3,10,4
+148,Mentor,69,0,8,127,108,21,172,174,47,178,74,65,39,119,155,Mining,7,8,6,9,2,3,5
+149,Mentor,83,187,162,96,125,129,86,52,69,47,107,37,99,72,80,Hospitality;Telecommunications;Transportation and Logistics;Biotechnology,8,9,10,5,3,7,2
+150,Mentor,79,104,108,50,165,191,37,92,78,27,157,107,97,52,20,Manufacturing,7,1,4,10,5,3,2
+151,Mentor,198,97,79,87,185,31,64,171,123,78,84,105,40,2,14,Information Technology,9,4,8,6,7,3,10
+152,Mentor,31,40,41,183,196,26,18,13,111,59,73,103,182,176,114,Agriculture;Telecommunications,4,6,1,5,2,8,10
+153,Mentor,133,158,122,131,150,59,45,173,146,32,82,151,64,159,43,Telecommunications;Manufacturing;Hospitality;Automotive;Biotechnology,4,6,2,1,9,5,7
+154,Mentor,131,91,79,113,111,165,95,168,172,17,51,89,162,25,134,Agriculture;Hospitality;Real Estate;Biotechnology;Manufacturing,4,6,1,8,3,10,7
+155,Mentor,50,134,176,138,145,161,14,19,135,104,40,30,197,21,55,Pharmaceuticals;Information Technology;Manufacturing;Transportation and Logistics,3,5,2,9,10,8,6
+156,Mentor,156,21,113,1,149,104,189,95,93,192,101,87,151,111,183,Consumer Goods;Hospitality;Energy,7,6,10,3,9,1,5
+157,Mentor,67,81,102,96,20,4,185,169,16,126,64,9,116,125,143,Hospitality;Consumer Goods;Information Technology;Mining;Agriculture,2,6,5,9,1,8,10
+158,Mentor,195,52,134,96,9,123,27,121,62,6,49,186,119,181,102,Manufacturing;Agriculture;Transportation and Logistics,10,7,1,8,6,5,3
+159,Mentor,163,31,114,62,42,115,134,23,77,78,108,109,56,131,18,Consumer Goods;Hospitality;Real Estate;Manufacturing;Energy,6,10,7,5,9,2,1
+160,Mentor,46,135,16,76,134,192,128,165,42,60,176,191,65,144,3,Construction;Automotive;Hospitality;Pharmaceuticals;Biotechnology,6,1,3,4,9,5,7
+161,Mentor,147,111,116,148,98,10,122,196,137,29,1,40,26,115,78,Mining;Pharmaceuticals,4,5,6,7,1,3,10
+162,Mentor,75,109,40,67,84,54,79,66,114,107,93,185,110,116,153,Telecommunications;Construction,2,7,10,1,4,6,3
+163,Mentor,130,78,38,42,147,88,96,167,72,86,44,119,11,124,63,Transportation and Logistics;Agriculture;Telecommunications;Mining;Automotive,10,9,3,7,8,2,1
+164,Mentor,51,92,167,26,172,25,151,189,91,150,142,191,161,14,52,Real Estate;Biotechnology;Mining,9,8,6,3,7,4,10
+165,Mentor,38,96,173,18,166,97,154,106,65,39,58,66,109,63,149,Mining;Transportation and Logistics,5,3,8,1,6,10,7
+166,Mentor,36,59,139,138,31,137,189,121,116,178,52,112,192,169,14,Automotive;Pharmaceuticals;Transportation and Logistics,8,7,6,3,9,2,10
+167,Mentor,165,103,43,157,106,88,130,50,13,104,194,76,93,16,174,Construction,2,7,10,4,3,5,9
+168,Mentor,117,42,64,181,199,46,102,177,172,180,83,97,69,57,171,Telecommunications;Energy,7,4,2,8,5,9,3
+169,Mentor,91,26,147,21,38,23,90,95,74,46,27,79,148,115,8,Mining,3,8,7,2,5,1,10
+170,Mentor,88,163,65,61,64,33,52,26,127,197,113,111,83,134,139,Transportation and Logistics;Real Estate;Telecommunications,5,10,9,1,7,6,3
+171,Mentor,164,76,16,46,89,155,51,81,161,22,173,109,177,121,68,Construction;Transportation and Logistics;Pharmaceuticals;Manufacturing;Telecommunications,7,1,8,10,6,5,2
+172,Mentor,139,0,51,24,67,98,134,47,64,76,95,122,72,25,10,Real Estate;Agriculture;Automotive;Energy;Information Technology,9,3,6,5,7,8,2
+173,Mentor,137,70,184,198,67,193,87,140,38,187,106,68,94,44,0,Biotechnology;Telecommunications;Hospitality;Automotive;Pharmaceuticals,8,7,3,5,2,9,6
+174,Mentor,31,106,59,126,89,187,58,143,24,151,10,49,148,197,154,Energy;Hospitality;Pharmaceuticals;Construction;Consumer Goods,8,10,9,5,7,6,3
+175,Mentor,39,164,168,178,9,186,102,77,60,19,136,130,20,144,74,Information Technology;Biotechnology;Transportation and Logistics;Telecommunications,7,9,10,3,8,4,1
+176,Mentor,124,44,55,182,196,26,4,183,112,192,180,107,195,135,42,Manufacturing;Biotechnology,4,5,7,9,10,1,6
+177,Mentor,115,61,23,34,47,105,183,73,109,36,170,124,193,139,32,Hospitality;Consumer Goods;Information Technology,4,10,1,3,9,7,5
+178,Mentor,42,127,107,132,39,6,183,89,58,45,165,9,57,2,51,Real Estate,10,8,2,7,3,5,1
+179,Mentor,177,179,140,133,53,193,192,72,184,147,97,152,32,83,103,Information Technology;Manufacturing,8,9,6,2,5,10,1
+180,Mentor,50,18,175,155,150,187,182,127,58,133,198,151,26,174,159,Construction;Consumer Goods;Biotechnology;Mining,4,5,10,9,1,3,6
+181,Mentor,38,59,143,112,136,141,35,178,1,25,174,153,144,161,128,Transportation and Logistics;Consumer Goods;Mining,5,1,7,4,2,8,3
+182,Mentor,157,85,60,94,87,185,183,55,91,124,101,170,186,93,171,Manufacturing,2,6,10,3,4,7,5
+183,Mentor,164,69,127,52,136,103,22,151,194,59,110,83,64,152,73,Energy,8,10,9,7,6,5,3
+184,Mentor,131,168,118,6,69,105,194,8,155,10,71,4,171,95,152,Manufacturing;Biotechnology;Pharmaceuticals;Energy;Construction,8,9,7,4,3,6,2
+185,Mentor,48,105,182,92,63,141,151,155,74,139,147,81,122,135,21,Construction;Real Estate;Energy;Information Technology;Agriculture,5,1,7,9,4,6,2
+186,Mentor,57,122,11,85,0,76,117,4,93,67,160,92,148,132,166,Agriculture;Construction;Pharmaceuticals;Automotive;Consumer Goods,9,1,6,10,7,2,3
+187,Mentor,156,66,196,136,72,67,6,91,140,7,168,121,147,158,85,Information Technology;Hospitality;Transportation and Logistics,3,8,7,10,1,5,6
+188,Mentor,63,57,81,156,30,88,149,17,70,92,120,185,101,79,86,Transportation and Logistics;Biotechnology;Manufacturing,3,6,9,1,5,10,4
+189,Mentor,197,168,120,65,39,58,155,51,10,157,101,79,151,50,71,Energy;Transportation and Logistics;Pharmaceuticals,5,6,3,9,10,8,7
+190,Mentor,149,52,71,56,64,125,197,81,39,182,87,145,181,50,44,Automotive;Hospitality;Telecommunications;Real Estate,10,5,9,4,7,3,6
+191,Mentor,69,8,143,196,154,119,70,3,128,19,24,147,40,132,185,Telecommunications,9,4,10,3,7,2,8
+192,Mentor,76,58,192,35,106,15,18,130,182,12,145,138,52,19,113,Biotechnology;Transportation and Logistics;Construction,5,9,8,6,3,7,2
+193,Mentor,160,24,122,41,169,92,159,59,180,27,130,19,3,164,132,Energy;Hospitality;Automotive;Agriculture;Pharmaceuticals,8,10,5,6,3,4,2
+194,Mentor,90,192,101,5,148,41,157,71,198,118,119,20,100,149,84,Agriculture,1,5,7,8,4,6,3
+195,Mentor,132,5,111,53,51,34,31,153,179,195,152,198,50,28,65,Biotechnology;Mining,4,7,1,5,9,8,2
+196,Mentor,27,181,100,80,14,110,36,114,130,84,18,93,60,73,186,Hospitality;Transportation and Logistics;Agriculture,7,4,5,9,8,3,2
+197,Mentor,104,175,198,172,56,42,0,79,110,154,196,120,116,23,53,Consumer Goods;Agriculture;Construction,10,2,4,7,6,8,3
+198,Mentor,98,40,85,61,137,13,95,72,176,124,153,25,107,134,131,Consumer Goods;Manufacturing;Telecommunications,4,6,10,2,8,1,5
+199,Mentor,85,19,197,194,34,62,8,63,83,45,171,93,106,155,161,Construction;Pharmaceuticals;Real Estate;Mining,3,4,8,5,10,7,6
+0,Mentee,174,82,100,22,42,196,125,0,7,23,108,99,59,84,146,Energy;Transportation and Logistics;Real Estate;Agriculture,2,9,7,3,10,4,5
+1,Mentee,44,43,29,181,103,135,20,62,165,164,122,133,167,0,21,Consumer Goods;Telecommunications;Transportation and Logistics,2,4,3,8,9,6,10
+2,Mentee,155,188,180,38,25,48,16,100,163,187,21,9,70,88,22,Consumer Goods;Automotive;Real Estate;Information Technology,3,8,4,7,10,2,6
+3,Mentee,85,134,185,11,137,86,178,14,27,103,147,114,20,84,153,Agriculture;Consumer Goods;Automotive;Energy;Construction,2,9,7,10,1,5,8
+4,Mentee,181,159,169,122,174,148,158,157,72,142,170,189,140,188,138,Information Technology,6,8,9,3,4,1,5
+5,Mentee,117,170,120,160,24,146,125,25,15,99,178,127,122,36,143,Telecommunications,1,4,5,7,9,8,10
+6,Mentee,109,74,162,28,20,107,5,76,91,55,88,191,56,17,158,Hospitality;Energy,4,5,2,6,10,1,3
+7,Mentee,160,142,166,184,48,19,82,89,156,178,14,9,190,63,62,Biotechnology,6,3,2,4,10,7,1
+8,Mentee,177,72,30,183,191,184,2,106,199,7,167,25,131,63,145,Manufacturing;Pharmaceuticals;Agriculture;Automotive;Transportation and Logistics,5,1,10,8,4,9,2
+9,Mentee,25,63,141,52,164,15,69,149,29,24,184,14,195,53,33,Mining;Pharmaceuticals;Energy,5,1,3,10,4,6,2
+10,Mentee,194,81,144,18,26,62,64,38,107,189,177,75,102,127,114,Energy;Telecommunications,9,5,8,6,7,10,2
+11,Mentee,136,61,8,90,181,96,28,50,68,199,23,4,58,34,100,Hospitality;Biotechnology,6,2,8,4,5,1,3
+12,Mentee,73,99,105,137,37,123,56,60,114,149,45,136,18,84,70,Mining;Pharmaceuticals;Manufacturing;Biotechnology,4,9,5,1,7,10,8
+13,Mentee,56,3,149,2,170,72,169,38,23,90,93,178,1,135,13,Biotechnology;Pharmaceuticals;Construction;Hospitality,2,7,10,8,6,4,5
+14,Mentee,19,181,177,141,161,0,87,118,11,80,163,140,135,191,3,Information Technology,4,2,3,8,10,9,5
+15,Mentee,17,119,67,167,48,33,51,143,164,16,152,65,82,103,145,Energy;Mining;Real Estate,1,3,5,7,10,4,9
+16,Mentee,90,87,189,151,183,104,141,195,142,99,86,7,117,163,198,Mining,8,4,9,5,10,7,3
+17,Mentee,114,37,87,130,33,13,30,15,159,193,180,65,57,11,199,Consumer Goods,4,7,10,9,8,2,6
+18,Mentee,175,195,2,191,8,136,106,144,86,165,168,185,0,74,18,Hospitality;Construction;Information Technology;Agriculture;Mining,7,3,1,5,8,6,2
+19,Mentee,162,43,146,62,145,152,116,138,173,167,45,110,21,67,12,Telecommunications;Construction,8,3,6,2,10,4,7
+20,Mentee,14,108,98,87,167,148,178,124,36,16,65,120,139,83,159,Hospitality;Biotechnology;Telecommunications;Agriculture;Pharmaceuticals,10,4,9,8,2,3,7
+21,Mentee,180,102,63,135,125,140,12,39,175,166,27,167,50,171,101,Biotechnology;Mining;Hospitality,6,4,1,2,7,3,5
+22,Mentee,23,182,186,123,43,112,105,99,96,176,27,54,163,28,80,Telecommunications;Mining;Pharmaceuticals,4,1,10,5,8,2,7
+23,Mentee,138,54,123,179,86,139,190,192,120,166,126,85,49,64,119,Mining;Telecommunications;Construction;Real Estate,8,1,9,2,7,5,3
+24,Mentee,62,36,115,7,88,145,135,48,22,55,106,151,134,127,111,Construction;Consumer Goods,10,1,3,4,8,5,2
+25,Mentee,129,132,65,88,136,180,185,99,75,125,69,41,142,32,177,Automotive,6,5,2,3,4,10,8
+26,Mentee,167,39,164,127,95,179,134,45,128,197,139,187,178,34,182,Manufacturing;Mining;Transportation and Logistics;Information Technology;Construction,7,8,6,4,5,2,3
+27,Mentee,38,148,104,1,125,175,13,48,36,94,11,35,135,171,31,Pharmaceuticals;Biotechnology,7,5,1,8,6,4,3
+28,Mentee,199,26,160,163,36,51,41,68,181,43,74,191,80,125,155,Construction;Pharmaceuticals;Agriculture,3,5,9,6,4,2,10
+29,Mentee,161,181,141,171,116,101,15,51,21,198,193,155,133,194,54,Construction;Manufacturing;Mining;Telecommunications;Energy,5,4,7,9,1,3,2
+30,Mentee,125,55,49,85,144,139,9,126,96,86,197,152,98,82,61,Manufacturing;Information Technology;Real Estate;Energy;Hospitality,7,6,5,1,4,9,10
+31,Mentee,80,182,16,104,30,103,115,39,167,191,99,31,50,121,32,Agriculture;Consumer Goods;Mining;Construction,5,2,6,9,7,8,4
+32,Mentee,160,127,114,38,56,162,28,3,93,180,35,192,26,177,23,Manufacturing;Telecommunications;Automotive;Agriculture,4,3,2,5,6,7,8
+33,Mentee,6,44,52,128,24,174,54,33,64,80,138,21,79,118,17,Real Estate;Manufacturing;Information Technology;Biotechnology;Energy,4,8,10,6,5,7,2
+34,Mentee,69,12,188,134,40,11,88,174,167,157,135,77,56,54,58,Pharmaceuticals;Manufacturing,5,9,8,7,1,4,3
+35,Mentee,72,168,1,46,162,169,186,171,117,64,119,88,154,146,33,Biotechnology;Automotive;Transportation and Logistics;Energy,1,9,2,8,10,6,7
+36,Mentee,84,81,118,177,185,38,142,139,62,36,66,122,25,61,19,Biotechnology;Telecommunications;Automotive;Transportation and Logistics;Information Technology,2,3,10,5,4,7,1
+37,Mentee,159,103,85,63,96,62,39,48,110,23,178,194,32,21,162,Real Estate;Biotechnology,7,8,9,2,1,4,3
+38,Mentee,22,76,78,59,116,55,108,93,80,0,105,127,187,136,141,Consumer Goods;Construction;Automotive;Agriculture;Real Estate,4,3,2,8,5,7,6
+39,Mentee,133,164,16,69,83,173,199,9,91,37,115,43,126,63,195,Automotive;Transportation and Logistics,7,10,1,6,2,8,9
+40,Mentee,170,20,112,192,177,189,12,60,15,136,5,7,111,41,57,Telecommunications;Information Technology;Mining,6,10,1,7,2,4,5
+41,Mentee,7,158,41,37,55,150,97,88,114,163,9,90,86,167,197,Pharmaceuticals,8,9,1,6,10,3,4
+42,Mentee,17,94,187,180,191,105,96,173,28,99,86,159,154,128,12,Telecommunications;Biotechnology;Transportation and Logistics;Information Technology,1,2,8,5,7,6,4
+43,Mentee,46,13,57,148,121,0,161,30,49,129,80,152,181,97,35,Manufacturing;Hospitality;Construction;Energy;Pharmaceuticals,7,3,4,9,2,5,1
+44,Mentee,140,5,23,182,22,84,199,150,177,124,71,123,18,111,113,Transportation and Logistics;Agriculture;Real Estate;Manufacturing,6,1,9,4,7,10,3
+45,Mentee,153,23,148,110,88,90,29,51,114,69,126,132,100,45,76,Hospitality;Manufacturing;Pharmaceuticals;Automotive,4,6,1,9,7,8,5
+46,Mentee,32,130,121,123,173,72,116,43,59,161,75,167,107,55,35,Information Technology;Mining;Real Estate;Automotive,9,1,8,2,4,3,5
+47,Mentee,38,25,29,76,63,196,8,137,156,186,42,52,44,146,134,Manufacturing,8,10,9,3,1,5,4
+48,Mentee,21,71,137,40,50,174,11,122,53,160,162,179,145,119,117,Pharmaceuticals;Automotive;Hospitality;Mining,5,3,9,7,10,1,6
+49,Mentee,31,119,160,144,174,131,124,41,55,17,85,187,197,25,75,Manufacturing,1,3,10,9,5,2,8
+50,Mentee,88,185,164,146,100,119,66,128,3,130,178,111,87,165,115,Energy;Real Estate;Consumer Goods;Transportation and Logistics;Telecommunications,6,8,3,4,10,9,2
+51,Mentee,150,134,156,108,50,183,27,65,55,19,181,126,39,103,117,Automotive;Telecommunications;Information Technology;Real Estate,1,7,3,6,4,10,2
+52,Mentee,52,42,18,142,111,159,55,85,180,34,37,36,14,162,196,Information Technology;Telecommunications;Consumer Goods;Real Estate;Hospitality,1,10,3,9,5,7,6
+53,Mentee,45,163,37,131,76,155,90,85,199,184,7,62,80,178,25,Agriculture;Mining;Transportation and Logistics;Hospitality,8,6,3,1,9,5,2
+54,Mentee,180,129,114,122,106,171,182,192,67,152,14,175,178,8,27,Pharmaceuticals;Mining,9,2,3,10,7,8,4
+55,Mentee,168,81,69,177,192,108,24,12,68,35,99,25,45,94,116,Telecommunications,8,2,5,7,4,9,1
+56,Mentee,78,82,177,129,122,42,191,45,140,71,76,141,28,113,92,Consumer Goods;Telecommunications,10,1,4,2,7,8,9
+57,Mentee,19,191,66,74,177,140,25,16,141,172,149,147,183,153,9,Manufacturing,10,2,6,4,1,9,5
+58,Mentee,138,137,146,8,118,10,91,4,178,126,60,28,176,130,27,Telecommunications;Hospitality,3,9,6,2,8,5,7
+59,Mentee,188,22,144,172,193,65,124,198,162,167,68,91,117,153,192,Agriculture;Construction,2,5,9,1,8,10,3
+60,Mentee,47,55,93,140,167,106,5,31,185,104,115,68,166,49,22,Hospitality,2,10,4,3,1,5,7
+61,Mentee,119,181,185,158,84,100,82,74,174,55,130,166,125,182,58,Real Estate;Biotechnology;Information Technology;Mining;Agriculture,6,2,3,1,7,10,9
+62,Mentee,175,63,137,101,196,9,84,189,183,68,128,60,49,144,123,Information Technology;Mining;Real Estate;Pharmaceuticals,1,4,7,2,8,5,10
+63,Mentee,123,139,69,83,71,173,150,116,39,172,151,41,130,18,23,Information Technology;Biotechnology;Transportation and Logistics;Consumer Goods,8,10,4,1,7,9,3
+64,Mentee,147,39,18,128,50,6,136,81,90,173,47,85,157,143,92,Hospitality;Manufacturing;Agriculture;Consumer Goods,6,3,9,7,10,5,1
+65,Mentee,131,164,189,49,149,167,150,43,55,86,112,7,123,106,184,Energy;Mining;Real Estate;Hospitality;Transportation and Logistics,3,4,6,2,1,9,5
+66,Mentee,1,67,91,48,135,152,79,149,197,70,5,60,88,97,185,Hospitality;Real Estate,9,8,3,6,4,7,2
+67,Mentee,90,86,60,182,153,180,132,147,88,9,100,52,70,51,58,Real Estate;Transportation and Logistics,5,10,3,1,9,6,7
+68,Mentee,88,51,60,190,163,185,85,37,193,107,28,39,182,12,196,Pharmaceuticals;Consumer Goods;Telecommunications;Information Technology,1,5,9,8,4,6,3
+69,Mentee,27,46,20,126,177,176,171,32,162,198,183,127,2,188,150,Construction;Manufacturing;Agriculture;Real Estate;Mining,2,5,9,10,1,8,3
+70,Mentee,154,181,146,81,35,5,72,55,51,117,195,42,99,28,153,Real Estate;Automotive;Consumer Goods;Energy;Mining,7,8,2,1,10,4,6
+71,Mentee,4,112,77,111,104,137,193,142,72,59,35,123,73,139,52,Transportation and Logistics;Agriculture;Manufacturing,1,4,3,5,8,2,7
+72,Mentee,110,48,190,59,109,171,178,40,38,86,94,88,76,9,102,Mining,3,9,6,5,10,4,7
+73,Mentee,178,118,67,149,113,7,43,87,162,180,130,107,40,55,190,Biotechnology;Automotive;Transportation and Logistics;Real Estate,2,6,1,3,10,8,9
+74,Mentee,6,77,143,81,5,43,52,19,28,47,174,185,71,65,29,Manufacturing;Hospitality;Construction;Energy;Pharmaceuticals,5,9,1,2,3,7,10
+75,Mentee,27,101,9,149,113,24,195,6,114,169,177,131,138,194,187,Real Estate;Information Technology;Pharmaceuticals;Automotive,2,7,3,6,10,8,5
+76,Mentee,146,161,134,77,28,101,51,16,49,107,14,13,66,137,191,Information Technology;Agriculture;Pharmaceuticals;Manufacturing,6,4,3,7,8,10,5
+77,Mentee,30,36,67,64,48,175,121,150,188,141,127,120,107,195,113,Energy;Biotechnology;Mining,4,8,3,7,6,9,10
+78,Mentee,99,156,78,19,91,183,11,155,77,140,119,81,125,173,131,Hospitality;Consumer Goods,10,7,4,5,8,2,9
+79,Mentee,196,181,92,16,146,33,99,31,87,56,110,176,23,76,163,Energy,9,6,1,10,2,3,4
+80,Mentee,138,34,64,188,135,148,20,63,76,58,163,86,0,128,184,Agriculture;Energy;Mining,10,1,4,2,5,3,6
+81,Mentee,56,147,127,75,191,73,111,126,86,179,18,138,162,156,101,Hospitality;Telecommunications,2,4,5,3,6,7,9
+82,Mentee,193,117,16,192,11,22,41,47,197,53,183,148,154,10,143,Transportation and Logistics,4,9,8,10,2,6,1
+83,Mentee,195,181,198,189,8,125,86,95,17,178,45,147,35,100,57,Consumer Goods;Real Estate;Construction;Hospitality,10,8,6,3,7,9,4
+84,Mentee,113,14,100,9,166,122,177,27,60,88,25,45,43,163,102,Construction;Transportation and Logistics,7,4,10,5,9,1,2
+85,Mentee,141,6,140,195,153,31,20,131,116,186,22,113,187,147,155,Telecommunications;Biotechnology;Automotive;Energy,7,1,9,8,3,2,10
+86,Mentee,160,60,170,162,0,157,189,133,165,141,55,98,175,82,22,Biotechnology;Agriculture;Transportation and Logistics;Construction,4,10,1,3,7,9,2
+87,Mentee,64,42,110,143,166,47,155,150,135,99,158,168,36,183,34,Mining,1,6,3,7,2,8,10
+88,Mentee,61,66,31,139,105,26,158,9,64,78,19,161,111,123,56,Information Technology;Manufacturing;Construction;Mining,6,3,7,4,10,5,9
+89,Mentee,145,187,19,105,158,43,160,131,153,87,114,103,198,146,83,Consumer Goods;Telecommunications,1,3,2,6,5,7,4
+90,Mentee,137,107,76,109,101,170,50,165,80,91,146,90,195,22,161,Real Estate;Mining,8,9,2,5,7,10,3
+91,Mentee,47,142,125,167,39,176,132,4,88,5,159,48,87,8,146,Transportation and Logistics;Real Estate;Automotive;Information Technology,2,10,8,1,6,4,9
+92,Mentee,146,121,154,142,130,179,87,14,90,16,86,53,75,80,105,Pharmaceuticals,2,10,7,3,6,5,4
+93,Mentee,180,7,117,32,62,94,178,19,139,114,142,174,36,128,52,Agriculture;Automotive,3,6,4,1,9,5,8
+94,Mentee,123,96,102,137,151,67,197,100,95,159,122,198,105,128,32,Information Technology,10,5,1,9,6,2,8
+95,Mentee,23,171,39,51,22,86,172,192,95,43,123,196,59,122,45,Energy,9,10,1,8,7,5,4
+96,Mentee,159,141,56,8,13,135,104,68,120,93,90,146,102,36,7,Construction;Manufacturing;Agriculture,10,2,8,1,7,5,6
+97,Mentee,118,63,133,53,83,31,74,138,161,184,157,191,196,21,62,Hospitality;Mining,4,9,10,1,2,5,7
+98,Mentee,177,35,188,54,94,74,66,61,154,36,95,63,58,84,2,Energy;Construction,2,10,3,6,4,5,7
+99,Mentee,105,50,53,60,43,169,178,192,3,70,54,69,158,147,73,Biotechnology,2,1,7,5,10,4,6
+100,Mentee,39,180,119,20,90,192,174,148,165,60,182,131,0,157,193,Automotive;Construction;Biotechnology;Information Technology;Telecommunications,8,4,5,10,2,9,1
+101,Mentee,8,119,54,45,193,134,159,32,189,36,131,173,92,181,124,Consumer Goods;Agriculture;Automotive;Energy,10,9,1,3,8,6,4
+102,Mentee,55,94,134,88,17,86,151,48,14,83,75,32,1,176,21,Hospitality;Real Estate;Construction,6,2,8,5,1,10,7
+103,Mentee,115,100,49,131,120,53,147,54,144,137,187,143,112,126,177,Automotive;Mining;Biotechnology;Telecommunications,4,3,8,6,7,10,2
+104,Mentee,81,163,68,190,194,16,105,161,181,135,112,15,122,89,97,Transportation and Logistics;Pharmaceuticals;Hospitality;Real Estate;Telecommunications,2,1,6,7,3,10,8
+105,Mentee,103,122,199,194,186,134,92,91,191,14,20,197,181,38,168,Hospitality;Pharmaceuticals;Automotive;Mining;Telecommunications,10,1,9,7,6,5,3
+106,Mentee,96,2,116,181,152,0,97,13,184,180,114,130,33,39,45,Information Technology;Biotechnology;Real Estate;Consumer Goods,1,9,5,4,8,3,7
+107,Mentee,92,123,56,13,120,103,199,183,139,102,89,60,21,134,126,Telecommunications;Mining;Real Estate,7,1,6,2,10,5,3
+108,Mentee,172,102,86,104,67,0,111,72,12,129,174,112,16,35,139,Construction;Real Estate,10,7,1,9,6,4,2
+109,Mentee,74,91,163,6,75,135,93,127,134,110,147,177,60,34,59,Energy;Consumer Goods;Automotive;Manufacturing;Biotechnology,2,4,10,5,8,1,3
+110,Mentee,100,136,49,159,113,153,167,5,115,30,138,44,55,43,48,Energy;Agriculture,1,10,6,2,9,3,5
+111,Mentee,197,58,26,68,136,43,77,167,113,194,104,61,57,141,84,Transportation and Logistics;Telecommunications,2,4,1,8,6,5,7
+112,Mentee,107,177,46,103,95,105,139,20,2,99,7,92,47,108,55,Consumer Goods;Agriculture;Biotechnology,6,1,7,10,5,2,4
+113,Mentee,194,97,133,78,151,127,96,135,82,14,95,141,192,40,77,Information Technology;Automotive;Consumer Goods;Manufacturing;Biotechnology,2,10,8,9,5,1,4
+114,Mentee,156,149,42,91,84,185,173,142,27,86,14,66,8,73,126,Information Technology;Telecommunications;Biotechnology;Energy;Transportation and Logistics,1,5,9,3,2,4,8
+115,Mentee,135,56,96,71,127,19,51,1,52,64,126,49,143,74,98,Hospitality,9,3,8,5,10,6,1
+116,Mentee,100,25,14,156,133,170,175,116,32,101,150,21,9,39,181,Hospitality,8,1,5,2,9,10,6
+117,Mentee,163,56,7,173,153,1,109,95,106,199,192,195,57,132,105,Manufacturing;Information Technology,2,7,8,4,3,9,5
+118,Mentee,111,29,159,11,184,177,8,78,174,192,171,194,47,181,36,Agriculture;Manufacturing;Energy;Mining,6,10,1,3,4,7,8
+119,Mentee,146,51,140,157,148,8,35,1,188,111,87,137,31,74,4,Mining;Agriculture;Hospitality,2,4,3,6,8,1,10
+120,Mentee,102,170,46,69,98,193,23,191,151,66,79,96,74,132,107,Transportation and Logistics;Biotechnology;Pharmaceuticals;Construction;Consumer Goods,7,6,3,8,10,2,4
+121,Mentee,188,94,181,66,78,120,48,100,4,24,162,23,21,25,97,Telecommunications;Biotechnology,4,6,2,9,5,8,7
+122,Mentee,195,119,0,70,4,190,31,184,175,28,87,88,147,112,16,Energy;Hospitality;Agriculture,5,6,4,3,10,7,2
+123,Mentee,193,170,100,141,132,2,148,88,74,22,102,152,77,179,46,Mining;Manufacturing,1,8,3,10,7,5,9
+124,Mentee,163,92,12,1,111,198,180,179,64,96,170,110,148,78,165,Hospitality;Consumer Goods;Energy;Transportation and Logistics,3,4,10,7,9,1,8
+125,Mentee,62,169,192,173,46,72,17,39,6,178,42,85,60,14,89,Biotechnology;Real Estate,2,10,6,1,3,4,5
+126,Mentee,176,171,39,186,190,157,131,159,158,127,75,94,29,68,59,Real Estate;Information Technology;Pharmaceuticals,4,5,10,9,7,8,6
+127,Mentee,62,2,70,177,180,18,155,114,20,59,151,133,162,54,179,Agriculture;Pharmaceuticals,3,5,1,7,2,6,8
+128,Mentee,96,171,14,6,105,188,199,4,41,97,24,53,179,89,60,Construction,5,3,1,8,10,9,7
+129,Mentee,35,19,106,91,103,135,60,72,193,179,140,128,149,18,38,Information Technology;Telecommunications;Transportation and Logistics;Pharmaceuticals;Construction,2,10,6,9,1,4,3
+130,Mentee,86,52,174,79,7,191,24,66,103,93,143,64,46,39,28,Pharmaceuticals;Mining,7,5,2,4,1,3,8
+131,Mentee,85,164,79,47,92,133,132,41,23,10,160,127,58,175,143,Mining;Manufacturing;Energy;Consumer Goods;Information Technology,7,5,4,9,3,6,1
+132,Mentee,70,156,82,126,175,35,29,73,120,23,31,89,52,190,119,Biotechnology;Transportation and Logistics;Consumer Goods;Construction,5,10,2,9,6,7,3
+133,Mentee,191,55,196,169,38,101,59,162,199,118,148,23,69,182,194,Hospitality;Transportation and Logistics;Biotechnology,7,6,3,1,8,10,5
+134,Mentee,155,190,104,150,135,39,49,38,164,131,75,109,167,178,173,Hospitality;Automotive,8,1,9,7,4,2,10
+135,Mentee,197,169,67,19,66,25,138,29,113,6,196,156,176,180,18,Energy;Consumer Goods,6,10,9,5,4,1,3
+136,Mentee,26,143,20,195,29,13,85,182,106,131,88,127,7,185,187,Energy;Telecommunications,3,2,6,5,10,9,7
+137,Mentee,140,168,199,54,142,159,46,1,44,84,125,138,8,67,90,Construction;Energy;Mining;Manufacturing;Automotive,5,10,2,7,8,9,6
+138,Mentee,55,69,134,114,0,25,188,43,147,18,161,182,157,74,4,Mining,4,9,7,3,5,6,2
+139,Mentee,69,187,197,65,36,123,22,3,90,112,85,119,169,54,83,Information Technology;Transportation and Logistics;Telecommunications;Energy,1,8,10,7,4,2,6
+140,Mentee,21,109,185,30,176,146,27,41,144,136,62,47,28,98,106,Consumer Goods,9,6,7,10,5,3,4
+141,Mentee,181,42,22,2,25,131,136,112,166,38,37,195,86,104,26,Pharmaceuticals,4,7,2,6,10,8,9
+142,Mentee,149,32,175,118,28,138,144,104,37,155,14,116,26,3,72,Real Estate,4,6,5,2,8,1,7
+143,Mentee,157,154,66,80,114,40,24,164,17,65,155,156,194,105,14,Construction,3,6,8,4,7,2,9
+144,Mentee,72,30,159,191,189,31,198,52,63,18,5,151,94,12,84,Real Estate;Energy,3,1,2,10,8,6,7
+145,Mentee,34,43,169,5,70,2,24,152,6,85,18,8,151,127,158,Information Technology,10,3,6,7,2,4,8
+146,Mentee,176,157,112,192,89,56,12,134,16,85,156,41,73,78,79,Automotive;Telecommunications;Construction;Real Estate;Manufacturing,7,4,5,1,3,10,6
+147,Mentee,27,56,77,147,116,10,159,86,104,91,22,122,190,6,66,Mining;Information Technology,6,5,7,8,2,10,3
+148,Mentee,125,70,100,128,194,142,11,186,60,140,93,169,177,189,175,Transportation and Logistics;Agriculture;Manufacturing,8,9,7,10,3,1,5
+149,Mentee,187,140,185,67,108,119,182,78,93,26,155,83,174,170,59,Construction;Pharmaceuticals,9,8,1,3,7,10,6
+150,Mentee,176,121,187,45,113,110,184,181,137,68,109,172,139,122,182,Mining,2,6,10,3,7,1,9
+151,Mentee,53,96,148,1,166,171,13,65,176,174,14,105,9,198,162,Information Technology,1,9,2,4,5,3,6
+152,Mentee,60,150,154,52,153,89,131,137,16,64,37,130,36,199,21,Construction,6,2,1,5,4,7,3
+153,Mentee,104,54,71,15,77,128,81,198,147,123,1,149,24,175,159,Automotive;Construction;Telecommunications;Energy,3,2,7,8,4,10,9
+154,Mentee,10,189,60,73,119,85,43,90,184,5,139,42,57,192,160,Energy;Consumer Goods;Agriculture,6,3,10,1,5,2,7
+155,Mentee,100,128,132,175,180,68,33,35,123,73,43,110,72,105,150,Construction;Telecommunications;Energy;Agriculture,7,5,8,1,10,2,3
+156,Mentee,128,121,100,72,91,179,143,115,190,24,78,88,23,172,40,Automotive;Information Technology;Agriculture;Manufacturing,10,3,5,8,7,4,9
+157,Mentee,1,50,154,90,27,65,143,92,118,3,10,35,83,135,187,Telecommunications,2,7,10,3,9,8,5
+158,Mentee,64,127,140,133,56,164,83,115,142,30,141,0,27,121,31,Mining;Telecommunications;Transportation and Logistics;Hospitality;Consumer Goods,8,6,3,1,10,4,2
+159,Mentee,145,167,166,192,66,189,172,180,38,98,20,157,65,143,125,Construction;Telecommunications;Information Technology,8,4,3,9,1,7,2
+160,Mentee,32,135,161,103,124,183,96,142,82,18,52,140,68,12,11,Information Technology;Energy;Manufacturing;Pharmaceuticals,4,10,6,8,2,9,3
+161,Mentee,169,29,20,46,95,178,19,15,42,59,136,61,0,63,119,Information Technology;Consumer Goods,2,10,4,8,1,9,3
+162,Mentee,63,47,184,35,176,23,17,133,49,39,43,147,136,148,193,Automotive;Construction;Energy;Hospitality,7,6,4,5,3,8,1
+163,Mentee,185,168,195,173,91,41,171,54,3,65,131,86,116,29,162,Consumer Goods,6,3,10,7,5,4,1
+164,Mentee,8,177,115,35,34,4,134,173,111,175,83,63,157,68,153,Information Technology;Construction,9,5,4,3,8,2,7
+165,Mentee,141,59,34,27,37,22,1,144,94,174,31,106,110,91,85,Manufacturing;Construction;Real Estate;Biotechnology,5,4,7,6,10,8,3
+166,Mentee,147,165,15,26,95,56,28,46,60,195,183,163,138,130,196,Hospitality,8,9,2,3,7,4,6
+167,Mentee,172,51,16,25,31,66,89,53,5,61,80,140,38,77,162,Information Technology;Real Estate;Pharmaceuticals,1,3,8,10,9,4,2
+168,Mentee,52,32,104,197,171,40,42,69,88,43,177,64,153,188,20,Mining;Agriculture;Information Technology;Transportation and Logistics,3,7,6,8,1,4,10
+169,Mentee,5,44,139,152,78,73,155,41,89,175,127,173,194,4,169,Construction;Hospitality;Real Estate;Information Technology;Transportation and Logistics,1,8,9,5,3,10,6
+170,Mentee,141,86,74,48,129,18,116,15,65,36,75,157,186,138,88,Energy;Automotive;Manufacturing,1,7,8,3,6,4,9
+171,Mentee,76,87,107,26,115,69,195,151,182,196,170,52,189,175,66,Mining;Manufacturing;Biotechnology,7,5,6,1,3,4,9
+172,Mentee,85,108,166,151,73,56,6,190,195,193,125,158,37,97,77,Agriculture;Transportation and Logistics;Mining,3,2,5,6,8,7,9
+173,Mentee,186,126,139,34,47,188,94,4,101,12,85,72,154,49,104,Information Technology;Pharmaceuticals;Mining;Telecommunications,6,10,1,9,8,2,5
+174,Mentee,74,142,8,94,5,132,172,123,162,156,52,125,66,150,59,Construction;Information Technology;Real Estate;Energy;Manufacturing,9,3,4,5,7,2,10
+175,Mentee,146,169,94,139,96,6,191,87,133,88,86,42,58,150,79,Mining;Manufacturing;Transportation and Logistics,7,6,9,3,4,2,5
+176,Mentee,71,134,189,25,11,97,42,128,39,150,173,145,14,52,98,Energy;Agriculture;Biotechnology;Pharmaceuticals;Manufacturing,6,10,8,7,4,5,1
+177,Mentee,16,104,62,34,49,90,93,65,124,193,143,20,6,108,81,Mining;Manufacturing;Consumer Goods,5,9,10,2,7,3,1
+178,Mentee,171,168,37,19,28,154,5,193,4,134,107,169,148,12,29,Agriculture;Biotechnology,10,6,8,7,4,9,3
+179,Mentee,178,179,31,180,110,9,193,137,157,58,102,67,60,3,109,Transportation and Logistics,10,3,1,5,8,4,7
+180,Mentee,25,106,163,154,76,78,55,6,145,150,12,117,11,190,47,Consumer Goods;Real Estate;Information Technology,1,7,4,5,6,9,8
+181,Mentee,99,184,158,152,176,120,36,72,122,70,33,77,65,68,18,Energy;Pharmaceuticals,10,5,3,7,1,4,2
+182,Mentee,140,154,2,74,39,123,161,95,61,57,65,54,45,158,115,Construction;Hospitality;Mining,2,3,6,8,10,1,9
+183,Mentee,52,162,5,144,176,58,168,12,25,36,48,167,69,85,191,Pharmaceuticals,5,9,3,4,10,7,2
+184,Mentee,159,86,16,96,95,116,133,135,162,132,98,190,52,118,79,Mining;Manufacturing;Automotive,8,5,10,4,6,7,1
+185,Mentee,11,39,186,28,3,196,155,87,73,164,23,68,188,109,97,Energy;Pharmaceuticals;Transportation and Logistics;Biotechnology;Manufacturing,6,4,2,5,10,1,9
+186,Mentee,152,120,80,171,38,74,17,11,64,76,71,56,90,107,70,Telecommunications;Agriculture;Transportation and Logistics;Information Technology,3,8,9,4,1,10,6
+187,Mentee,121,192,54,189,28,195,103,180,89,83,114,163,138,96,158,Consumer Goods;Telecommunications;Information Technology;Mining,5,7,2,6,8,10,9
+188,Mentee,60,51,30,34,199,15,96,67,156,153,25,125,53,74,75,Automotive,4,7,10,9,5,8,2
+189,Mentee,2,18,62,96,27,128,60,73,41,89,5,34,170,36,102,Biotechnology;Pharmaceuticals;Consumer Goods,2,6,10,3,4,7,1
+190,Mentee,129,165,15,114,154,18,45,150,60,96,8,44,197,24,51,Telecommunications;Biotechnology;Real Estate;Transportation and Logistics,5,8,3,10,6,7,1
+191,Mentee,53,10,62,4,35,16,174,43,143,167,13,60,157,24,2,Telecommunications;Transportation and Logistics;Hospitality;Automotive;Consumer Goods,4,2,3,10,8,6,9
+192,Mentee,102,163,159,29,186,43,81,137,42,24,13,190,58,86,121,Telecommunications;Agriculture;Construction;Pharmaceuticals;Mining,1,7,2,9,10,8,4
+193,Mentee,139,102,0,81,138,91,60,136,28,140,178,103,18,26,73,Telecommunications;Agriculture;Automotive;Energy;Biotechnology,1,5,7,9,2,4,8
+194,Mentee,167,65,104,66,147,84,98,110,179,196,185,152,44,132,50,Information Technology;Transportation and Logistics,5,3,2,1,9,6,7
+195,Mentee,189,179,94,90,79,155,21,11,27,30,195,157,2,186,118,Real Estate;Automotive,9,8,1,2,7,6,5
+196,Mentee,26,131,57,39,64,155,160,164,8,111,80,81,118,148,147,Mining;Manufacturing,10,2,6,3,7,8,4
+197,Mentee,28,96,38,150,36,20,189,132,198,8,144,109,196,181,140,Biotechnology;Agriculture;Pharmaceuticals;Transportation and Logistics,3,4,7,6,5,8,9
+198,Mentee,165,104,109,21,151,157,182,61,32,14,65,119,96,8,35,Energy;Agriculture;Construction,5,9,3,6,10,7,8
+199,Mentee,114,4,57,147,46,94,25,45,149,126,3,56,172,14,104,Transportation and Logistics;Agriculture,10,2,3,6,1,7,9

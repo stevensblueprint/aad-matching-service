@@ -125,9 +125,9 @@ class NameParser:
     self.pairs = pd.merge(self.pairs, self.mentors, left_on='Mentor', right_on=self.mentors.columns[0])
     self.pairs = pd.merge(self.pairs, self.mentees, left_on='Mentee', right_on=self.mentees.columns[0])
     self.pairs = self.pairs.iloc[:, 2:]
-    self.pairs.to_csv('pairs.csv')
+    self.pairs.to_csv('pairs.csv', index=False)
 
-df = pd.read_csv('test3.csv')
+df = pd.read_csv('input_data.csv')
 df2 = pd.read_csv('mentors.csv')
 df3 = pd.read_csv('mentees.csv')
 # matcher for test.csv
@@ -135,7 +135,8 @@ df3 = pd.read_csv('mentees.csv')
 # matcher for test2.csv 
 # matcher = MatchingAlgorithm(df,5,5,100,15,10)
 # matcher for test3.csv
-matcher = MatchingAlgorithm(df,10,7,100,15,10)
+matcher = MatchingAlgorithm(df,15,7,100,15,10)
 matcher.create_pairs()
+matcher.output_accuracy()
 parser = NameParser(matcher.pairs,df2,df3)
 parser.parse()
