@@ -1,0 +1,201 @@
+ID,Preference 1,Preference 2,Preference 3,Preference 4,Preference 5,Preference 6,Preference 7,Preference 8,Preference 9,Preference 10,Preference 11,Preference 12,Preference 13,Preference 14,Preference 15,Industry,Rank 1,Rank 2,Rank 3,Rank 4,Rank 5,Rank 6,Rank 7,Gender,Gender Preference
+0,154,25,133,124,69,45,104,185,30,168,85,132,129,68,55,Biotechnology;Automotive;Mining;Agriculture,3,4,1,7,2,5,8,Female,No Preference
+1,20,86,37,23,11,40,6,38,126,49,101,117,180,73,84,Pharmaceuticals;Hospitality;Construction;Agriculture,7,6,4,3,8,9,10,Male,No Preference
+2,83,115,132,155,69,111,163,26,156,172,11,24,62,6,150,Mining;Construction;Agriculture;Transportation and Logistics;Consumer Goods,8,6,7,2,10,4,5,Female,No Preference
+3,65,142,87,112,66,172,98,102,25,68,6,7,18,59,136,Manufacturing;Automotive;Pharmaceuticals,3,8,9,4,6,10,2,Female,No Preference
+4,77,119,60,174,168,114,125,89,97,105,104,167,166,191,178,Information Technology;Hospitality;Real Estate;Mining,3,8,2,4,6,1,10,Male,No Preference
+5,163,44,168,118,81,153,158,89,95,61,103,110,152,54,131,Consumer Goods;Agriculture;Information Technology,8,7,5,9,2,3,10,Female,No Preference
+6,61,115,154,151,117,37,175,113,41,168,78,82,100,43,62,Mining;Biotechnology,2,10,9,7,3,6,4,Female,No Preference
+7,144,104,16,93,17,139,145,61,40,97,175,68,150,92,4,Mining,9,7,2,4,5,1,3,Male,No Preference
+8,155,117,193,51,56,74,70,186,7,106,167,185,134,141,172,Manufacturing;Hospitality;Consumer Goods,5,7,8,6,10,1,9,Female,Female
+9,66,191,116,133,177,49,45,145,63,86,93,39,127,73,75,Telecommunications;Agriculture;Biotechnology;Pharmaceuticals,3,2,8,1,5,4,7,Male,Male
+10,128,28,79,129,143,5,124,154,9,114,150,188,2,103,12,Consumer Goods;Real Estate;Manufacturing,3,10,1,9,5,2,4,Male,No Preference
+11,56,101,81,12,177,153,163,66,93,134,85,129,61,181,39,Consumer Goods,6,5,4,10,3,9,7,Female,No Preference
+12,152,156,56,166,116,70,128,194,183,95,21,25,163,93,6,Consumer Goods;Construction;Real Estate,10,3,8,5,7,6,4,Male,No Preference
+13,181,154,63,44,31,60,49,6,98,174,86,112,12,119,76,Hospitality,8,10,7,5,1,6,2,Male,Male
+14,114,118,106,1,6,39,33,13,131,151,132,134,88,62,122,Automotive;Real Estate;Biotechnology,3,8,7,6,4,5,10,Male,No Preference
+15,6,44,106,33,140,155,141,169,101,67,144,154,59,185,86,Hospitality;Transportation and Logistics;Pharmaceuticals,7,2,8,9,1,4,5,Male,No Preference
+16,148,62,6,58,181,179,141,126,114,30,171,43,166,56,169,Biotechnology;Real Estate;Consumer Goods,10,8,5,4,6,3,1,Male,No Preference
+17,172,7,0,140,27,55,139,141,170,10,20,137,90,44,174,Agriculture,8,6,4,10,3,7,2,Male,No Preference
+18,163,103,54,50,129,39,74,137,41,12,175,25,177,157,107,Consumer Goods,5,10,8,4,7,3,1,Female,No Preference
+19,119,59,21,14,9,106,129,57,154,161,166,86,104,63,20,Real Estate;Hospitality,3,2,8,6,5,9,7,Male,No Preference
+20,155,163,37,164,29,31,20,145,185,118,62,195,6,72,41,Automotive;Manufacturing;Agriculture;Information Technology;Transportation and Logistics,8,10,7,5,9,6,4,Male,No Preference
+21,56,13,24,28,80,77,119,32,132,44,118,15,54,153,93,Energy;Information Technology;Construction;Transportation and Logistics;Automotive,2,9,4,1,6,10,8,Female,No Preference
+22,151,126,82,105,62,51,25,21,70,132,167,90,134,141,88,Mining;Telecommunications;Hospitality;Agriculture;Automotive,3,8,4,7,6,5,1,Female,Female
+23,138,75,46,76,10,55,21,64,40,74,155,44,117,67,159,Mining;Transportation and Logistics;Pharmaceuticals,1,2,3,10,9,6,7,Male,No Preference
+24,177,137,48,153,45,74,107,51,103,130,181,101,61,125,85,Consumer Goods,9,8,6,4,7,2,10,Female,No Preference
+25,189,6,49,91,118,186,23,60,153,59,66,62,2,46,130,Hospitality;Pharmaceuticals;Consumer Goods;Biotechnology;Transportation and Logistics,6,8,3,4,5,9,7,Female,No Preference
+26,179,67,116,138,139,172,91,189,140,108,177,76,141,155,23,Transportation and Logistics,6,7,2,4,1,5,10,Male,No Preference
+27,101,177,53,103,185,2,67,37,47,40,184,9,133,76,188,Telecommunications;Transportation and Logistics;Automotive;Biotechnology;Pharmaceuticals,6,4,9,7,2,3,8,Female,No Preference
+28,180,92,41,51,22,172,171,165,198,154,181,135,131,170,157,Biotechnology;Telecommunications;Consumer Goods;Energy,9,1,2,4,6,10,3,Male,No Preference
+29,9,21,139,58,175,108,34,20,6,145,33,55,126,127,14,Real Estate;Agriculture,2,6,3,8,1,9,5,Female,No Preference
+30,106,1,81,5,150,35,4,74,86,132,140,50,180,30,52,Biotechnology;Mining;Energy;Pharmaceuticals,8,9,5,10,2,4,6,Female,No Preference
+31,112,156,116,34,72,106,168,139,107,21,108,161,17,101,141,Agriculture;Real Estate;Consumer Goods;Information Technology,10,9,5,6,8,7,4,Female,No Preference
+32,178,126,133,135,74,62,121,98,9,167,102,51,7,180,72,Telecommunications;Hospitality,6,4,8,9,2,3,7,Female,No Preference
+33,97,169,129,87,48,46,118,120,49,9,84,117,133,144,115,Pharmaceuticals;Hospitality;Construction,10,7,4,2,3,9,1,Male,No Preference
+34,29,168,145,38,12,81,101,129,123,158,85,95,93,108,63,Construction,3,9,1,5,6,7,10,Male,Male
+35,161,50,186,83,138,27,133,145,167,141,140,82,37,10,31,Biotechnology;Telecommunications;Agriculture;Mining;Energy,7,4,5,1,8,2,3,Male,No Preference
+36,45,59,58,63,134,74,0,28,125,32,40,150,33,55,78,Energy;Manufacturing,7,3,5,6,10,4,9,Male,No Preference
+37,129,137,141,126,128,116,181,174,5,60,131,103,179,156,10,Biotechnology;Hospitality;Automotive;Agriculture,8,3,6,5,2,9,4,Male,No Preference
+38,54,154,45,136,42,55,95,87,122,101,56,61,88,131,108,Information Technology;Pharmaceuticals,9,4,6,3,10,7,1,Female,No Preference
+39,172,179,165,33,59,126,143,160,144,14,84,106,2,150,9,Manufacturing;Real Estate,6,7,1,3,5,9,8,Female,Female
+40,3,132,0,68,138,89,41,145,60,188,141,167,17,8,35,Information Technology,7,6,9,4,8,2,10,Male,No Preference
+41,45,56,106,120,130,81,175,181,25,134,153,41,183,141,125,Consumer Goods,3,1,10,2,6,7,5,Male,No Preference
+42,97,152,184,141,100,6,160,29,126,132,107,25,165,34,20,Automotive,9,10,7,5,3,6,8,Female,Female
+43,184,28,33,11,158,45,84,107,166,6,70,126,72,98,103,Construction;Agriculture;Real Estate;Automotive;Telecommunications,7,5,2,6,9,1,3,Male,No Preference
+44,84,101,16,107,54,5,158,12,191,24,104,145,90,63,163,Real Estate;Agriculture;Automotive;Construction;Information Technology,5,8,7,4,6,2,1,Female,No Preference
+45,163,51,55,41,129,70,153,80,81,101,191,12,50,159,62,Pharmaceuticals;Consumer Goods,1,7,6,4,3,8,10,Male,No Preference
+46,37,6,86,98,12,172,23,178,60,74,145,57,9,55,54,Telecommunications;Hospitality;Mining;Agriculture,5,7,6,8,10,9,1,Male,No Preference
+47,144,156,51,152,155,115,117,91,179,140,141,48,7,171,52,Construction;Transportation and Logistics,10,7,1,6,3,4,5,Female,Female
+48,109,126,181,120,159,137,118,121,65,48,95,174,29,46,19,Hospitality;Construction;Manufacturing;Biotechnology;Pharmaceuticals,6,10,8,4,2,9,3,Female,No Preference
+49,88,80,116,156,0,12,17,129,114,35,89,143,108,161,29,Information Technology;Construction,8,2,10,5,7,4,3,Non-binary,No Preference
+50,134,107,22,188,132,120,9,104,114,128,86,33,172,98,136,Transportation and Logistics;Automotive;Biotechnology,10,6,2,5,7,4,1,Female,No Preference
+51,167,28,60,138,86,109,189,18,104,66,140,186,119,193,180,Mining;Telecommunications;Manufacturing;Hospitality,5,7,3,2,6,4,10,Male,No Preference
+52,161,86,128,104,133,79,149,175,129,77,191,114,73,6,13,Real Estate,1,3,6,10,2,5,4,Male,Male
+53,143,191,61,64,15,36,37,172,155,116,60,120,62,19,68,Information Technology;Pharmaceuticals;Telecommunications,9,2,4,10,1,7,3,Male,No Preference
+54,106,0,61,10,157,150,41,67,50,154,101,133,189,186,49,Pharmaceuticals;Transportation and Logistics;Agriculture;Consumer Goods,2,10,9,6,1,7,5,Female,No Preference
+55,139,189,178,141,111,179,180,48,23,67,61,108,122,7,33,Transportation and Logistics,4,10,3,7,2,1,5,Female,No Preference
+56,40,27,117,20,185,74,9,131,144,62,172,140,118,179,2,Transportation and Logistics;Biotechnology;Agriculture;Consumer Goods,10,9,3,5,1,7,8,Female,Female
+57,103,112,6,18,21,172,192,118,74,65,143,66,0,132,76,Manufacturing,2,10,9,5,3,1,4,Female,No Preference
+58,169,4,62,92,129,140,153,115,150,122,1,121,21,107,189,Telecommunications;Mining;Automotive,7,3,1,9,5,2,8,Male,No Preference
+59,52,32,80,72,62,174,133,140,134,69,145,153,40,176,56,Real Estate;Mining;Energy;Manufacturing;Pharmaceuticals,5,3,2,1,8,4,6,Female,No Preference
+60,144,132,106,36,167,54,187,59,155,193,121,88,118,9,70,Hospitality,6,1,2,8,7,5,4,Female,Female
+61,11,16,154,123,21,30,43,92,97,165,74,29,147,151,98,Energy;Biotechnology;Information Technology;Mining,4,5,7,9,1,10,8,Male,No Preference
+62,5,167,185,141,29,156,112,170,39,46,163,37,32,23,165,Biotechnology;Agriculture;Telecommunications,1,2,3,9,6,5,4,Female,No Preference
+63,181,102,168,55,86,37,75,79,16,19,154,145,137,12,76,Hospitality;Construction;Agriculture;Biotechnology,1,8,6,10,4,3,7,Male,Male
+64,0,185,70,62,97,107,106,21,9,56,110,150,7,31,52,Pharmaceuticals,9,4,3,5,6,7,1,Female,Female
+65,169,137,39,106,102,2,186,18,51,33,48,171,11,124,109,Manufacturing;Telecommunications;Hospitality;Energy,4,5,6,3,8,2,10,Female,No Preference
+66,140,192,7,61,118,158,171,179,122,164,107,165,66,80,172,Construction;Manufacturing;Automotive;Transportation and Logistics,3,4,8,10,7,2,6,Female,No Preference
+67,10,141,14,150,54,43,93,149,94,132,67,124,129,57,60,Real Estate;Mining;Biotechnology;Information Technology,7,5,9,3,1,8,6,Male,No Preference
+68,89,64,180,126,5,59,17,46,175,86,33,169,7,154,80,Real Estate;Pharmaceuticals,10,6,1,7,9,3,4,Female,No Preference
+69,177,67,17,88,63,97,116,0,182,171,145,165,69,21,43,Mining;Energy;Biotechnology;Information Technology;Real Estate,2,4,1,7,6,5,3,Non-binary,No Preference
+70,14,70,115,160,110,23,165,74,186,106,113,52,155,9,141,Hospitality;Real Estate;Information Technology;Transportation and Logistics;Mining,7,10,5,4,1,2,3,Female,Female
+71,64,147,141,93,128,185,75,133,46,49,67,126,120,165,7,Automotive;Pharmaceuticals,3,6,7,4,9,10,2,Male,No Preference
+72,151,74,62,48,137,63,33,56,113,66,117,163,39,88,41,Information Technology;Consumer Goods,7,4,3,9,8,5,6,Male,No Preference
+73,147,81,169,130,177,42,101,67,125,56,142,132,129,77,107,Automotive;Consumer Goods,9,4,6,8,7,2,1,Female,No Preference
+74,20,107,39,32,145,155,167,59,21,15,180,31,93,132,104,Telecommunications;Mining,3,6,2,4,9,5,10,Male,No Preference
+75,199,56,142,91,5,163,99,117,25,101,120,14,176,40,20,Automotive;Real Estate;Energy;Consumer Goods;Construction,6,1,4,9,3,2,7,Female,No Preference
+76,154,117,189,155,76,13,126,40,36,153,32,133,73,138,20,Telecommunications,1,6,2,8,4,9,5,Male,No Preference
+77,33,181,9,185,155,72,176,118,108,69,10,82,149,66,41,Real Estate;Agriculture;Information Technology;Automotive;Hospitality,6,5,3,2,4,8,7,Female,No Preference
+78,143,137,53,184,146,0,72,147,122,12,151,124,97,34,103,Automotive;Energy;Manufacturing,5,3,2,7,4,6,9,Female,No Preference
+79,180,193,2,20,194,84,182,32,5,175,57,146,149,171,123,Energy;Real Estate,4,7,8,3,10,1,2,Male,No Preference
+80,37,162,55,125,138,182,161,71,118,76,127,32,174,31,80,Hospitality;Energy,3,4,10,1,6,7,5,Female,No Preference
+81,80,51,44,188,13,124,155,107,70,45,145,196,11,27,35,Agriculture;Construction;Information Technology,6,7,9,10,2,1,5,Female,No Preference
+82,141,40,64,46,122,0,21,54,1,102,172,39,65,129,163,Pharmaceuticals;Mining;Manufacturing;Consumer Goods,5,9,10,6,2,7,1,Male,No Preference
+83,169,164,188,174,103,15,61,66,22,64,101,71,31,114,158,Hospitality;Information Technology;Consumer Goods;Manufacturing;Mining,9,8,3,6,7,1,5,Male,Male
+84,156,171,117,84,48,51,152,56,115,107,155,91,12,24,126,Construction,1,9,6,4,8,5,7,Female,Female
+85,158,66,95,102,196,39,129,133,84,160,108,107,81,117,56,Automotive;Construction,9,10,2,7,3,6,8,Male,No Preference
+86,0,76,79,138,154,116,96,125,104,153,39,135,145,42,189,Manufacturing;Transportation and Logistics;Telecommunications,3,8,4,6,1,2,7,Male,Male
+87,15,19,70,69,151,188,88,138,139,20,114,161,118,180,89,Information Technology,10,6,9,4,7,5,2,Male,No Preference
+88,1,48,12,110,106,86,189,45,78,153,122,193,165,66,169,Pharmaceuticals;Hospitality;Energy;Biotechnology;Mining,6,1,7,9,10,3,2,Male,No Preference
+89,2,141,172,34,132,143,140,170,9,144,23,59,113,131,118,Information Technology;Transportation and Logistics;Energy,6,4,3,1,7,8,2,Female,Female
+90,129,102,128,96,15,139,113,149,13,36,133,59,34,5,154,Telecommunications;Real Estate;Information Technology,2,5,9,10,7,4,1,Male,No Preference
+91,120,49,58,29,76,147,79,158,145,68,192,3,63,116,87,Information Technology;Hospitality;Pharmaceuticals;Biotechnology,7,3,2,8,10,9,1,Male,Male
+92,84,14,194,172,34,6,148,17,133,179,22,59,70,21,13,Real Estate,3,4,1,2,7,5,10,Male,No Preference
+93,170,156,185,92,165,70,78,150,110,34,151,27,25,132,30,Automotive;Biotechnology;Pharmaceuticals;Agriculture,4,5,7,3,6,1,2,Female,Female
+94,75,48,81,133,161,129,79,155,181,59,95,31,63,71,151,Construction;Hospitality;Energy,8,6,10,3,2,1,7,Male,No Preference
+95,176,191,79,73,169,149,175,1,129,114,6,99,22,13,133,Real Estate,5,1,2,9,3,6,8,Male,Male
+96,21,165,48,112,24,52,56,5,149,194,79,75,141,22,119,Construction;Real Estate;Transportation and Logistics,2,10,7,1,3,6,4,Male,No Preference
+97,193,76,178,74,120,33,153,165,135,86,151,180,195,126,90,Manufacturing;Information Technology;Biotechnology;Agriculture,2,7,6,10,4,5,1,Male,No Preference
+98,92,161,55,63,0,31,141,33,56,41,124,128,61,13,29,Information Technology;Biotechnology;Pharmaceuticals,7,8,1,4,6,2,10,Female,No Preference
+99,31,118,142,149,188,186,122,84,117,51,126,175,56,179,93,Hospitality;Automotive;Real Estate;Consumer Goods,5,1,10,6,4,2,3,Female,No Preference
+100,65,60,169,6,54,76,15,32,192,191,124,132,50,37,40,Energy;Manufacturing;Pharmaceuticals;Information Technology,4,1,8,3,5,7,9,Male,No Preference
+101,131,180,169,198,9,34,114,177,151,88,56,81,162,92,120,Biotechnology;Energy,10,6,3,1,5,2,8,Male,No Preference
+102,6,155,77,15,11,119,151,66,196,134,97,102,50,189,104,Energy;Automotive;Construction,7,3,8,1,6,5,10,Male,No Preference
+103,15,179,79,145,70,31,117,121,71,90,152,104,55,72,37,Agriculture;Hospitality;Manufacturing;Transportation and Logistics;Telecommunications,10,8,3,1,6,7,4,Male,No Preference
+104,90,140,183,52,170,156,54,172,141,134,25,186,150,106,27,Transportation and Logistics;Consumer Goods;Agriculture,4,9,10,3,1,5,2,Female,Female
+105,40,51,97,172,62,107,193,150,156,20,36,9,21,115,47,Construction;Telecommunications;Pharmaceuticals,1,6,10,2,4,8,9,Female,Female
+106,93,29,119,84,129,107,0,110,7,154,157,86,54,55,150,Construction;Pharmaceuticals;Consumer Goods,8,5,1,10,6,9,7,Female,No Preference
+107,199,13,86,145,21,167,169,117,148,28,191,33,168,188,77,Real Estate;Energy;Construction;Hospitality,2,5,4,6,8,7,1,Male,No Preference
+108,105,21,76,140,4,17,117,7,79,66,81,163,18,11,177,Transportation and Logistics;Consumer Goods;Manufacturing;Mining,7,10,1,2,5,9,4,Male,No Preference
+109,28,117,94,66,180,15,193,181,100,171,184,20,74,47,41,Biotechnology;Manufacturing;Telecommunications,8,2,7,9,1,6,4,Male,No Preference
+110,84,50,98,38,9,169,24,107,15,75,119,36,51,79,174,Energy;Construction,5,1,3,10,6,2,8,Male,No Preference
+111,144,69,66,125,108,95,116,131,101,44,0,41,9,76,128,Hospitality;Information Technology,4,8,1,10,2,7,3,Female,No Preference
+112,40,97,91,193,90,79,42,72,138,104,84,103,180,76,196,Construction;Transportation and Logistics;Hospitality;Automotive;Agriculture,9,1,3,6,5,7,2,Male,No Preference
+113,126,55,196,63,189,80,77,163,179,0,58,129,34,83,48,Construction;Automotive;Agriculture;Transportation and Logistics,6,7,10,5,8,4,1,Male,No Preference
+114,87,116,74,133,173,180,7,114,109,122,136,24,175,188,47,Information Technology;Manufacturing;Construction;Telecommunications;Pharmaceuticals,7,9,10,3,8,1,5,Male,No Preference
+115,124,96,16,174,191,55,121,54,181,151,79,141,45,28,88,Hospitality;Pharmaceuticals;Agriculture;Telecommunications,4,5,3,1,9,2,7,Female,No Preference
+116,106,79,89,2,122,161,46,179,169,64,13,45,31,148,75,Real Estate;Pharmaceuticals,9,8,3,1,10,2,7,Female,No Preference
+117,56,162,15,80,146,71,199,12,37,189,72,31,190,137,171,Energy,1,9,6,2,7,8,3,Male,No Preference
+118,193,48,151,115,184,117,20,40,126,62,9,106,165,92,56,Pharmaceuticals;Energy;Mining;Automotive;Real Estate,8,4,7,3,1,10,9,Female,Female
+119,128,85,3,168,11,154,103,125,189,10,68,19,161,145,124,Agriculture;Transportation and Logistics;Information Technology;Telecommunications;Pharmaceuticals,10,3,1,4,2,7,8,Male,Male
+120,37,189,108,31,64,98,0,154,161,158,67,188,191,24,135,Construction;Automotive;Pharmaceuticals;Biotechnology,5,2,3,4,8,1,6,Male,Male
+121,6,105,40,12,186,74,161,85,165,26,82,120,171,16,132,Mining,2,7,5,9,4,10,8,Male,No Preference
+122,184,188,92,11,136,155,86,88,72,97,98,12,38,171,156,Construction;Automotive;Agriculture,10,2,5,8,7,1,3,Male,No Preference
+123,48,165,40,113,82,92,183,105,56,97,115,167,51,25,141,Consumer Goods;Telecommunications;Mining,10,5,9,2,8,4,3,Female,Female
+124,125,180,185,3,63,55,92,131,82,132,151,178,89,7,114,Construction;Pharmaceuticals;Telecommunications;Mining;Information Technology,4,5,1,6,8,10,9,Female,No Preference
+125,49,35,174,139,136,12,71,158,175,32,79,128,85,189,11,Information Technology;Energy;Transportation and Logistics;Pharmaceuticals,10,6,9,7,2,5,8,Male,Male
+126,89,59,118,7,78,5,88,9,84,62,155,17,106,82,141,Real Estate;Transportation and Logistics;Biotechnology,6,7,8,3,5,2,4,Female,Female
+127,17,170,5,20,2,143,40,155,74,70,106,134,59,167,36,Transportation and Logistics;Manufacturing;Information Technology;Pharmaceuticals;Energy,1,2,3,9,5,8,4,Female,Female
+128,134,20,157,71,122,18,125,50,117,163,147,21,54,29,85,Automotive;Manufacturing;Consumer Goods,7,4,2,8,10,9,1,Male,No Preference
+129,171,119,29,92,184,91,131,99,34,110,145,89,85,75,194,Real Estate;Biotechnology;Construction,10,6,4,2,9,1,8,Female,No Preference
+130,186,17,171,108,40,104,175,61,168,145,155,107,132,92,12,Mining;Construction,6,3,8,9,5,2,1,Male,No Preference
+131,136,158,145,127,86,125,199,172,131,37,63,91,135,163,68,Construction;Energy;Agriculture;Biotechnology;Pharmaceuticals,7,8,9,3,4,1,5,Female,No Preference
+132,156,139,16,132,9,193,24,81,185,134,86,98,21,117,40,Mining;Consumer Goods;Hospitality,5,10,4,7,1,3,2,Male,No Preference
+133,62,141,9,102,41,192,69,44,145,21,72,117,151,107,1,Biotechnology;Agriculture;Mining,7,3,1,9,4,8,10,Male,No Preference
+134,47,20,186,36,167,140,51,143,155,117,21,150,118,132,144,Telecommunications;Manufacturing,2,6,4,9,3,7,1,Female,Female
+135,178,54,7,102,172,86,78,33,112,6,11,137,171,58,44,Hospitality;Agriculture;Biotechnology,2,1,8,9,10,6,7,Female,No Preference
+136,49,0,42,154,66,191,136,32,60,104,31,188,169,46,73,Real Estate;Pharmaceuticals;Telecommunications;Hospitality,2,3,1,9,5,6,10,Male,Male
+137,63,116,56,198,177,114,137,29,55,171,108,150,43,80,125,Consumer Goods;Biotechnology;Information Technology;Pharmaceuticals,4,9,10,2,8,5,3,Male,No Preference
+138,154,169,181,6,29,77,188,45,129,125,0,109,122,104,100,Automotive;Manufacturing,10,8,6,4,2,9,5,Female,No Preference
+139,139,102,21,82,92,74,69,39,115,85,10,26,104,120,109,Mining,7,3,6,1,5,2,9,Female,No Preference
+140,139,161,91,181,132,141,29,102,23,193,76,59,199,152,107,Automotive;Hospitality;Transportation and Logistics;Energy;Mining,1,10,6,2,3,4,7,Male,No Preference
+141,111,20,170,152,145,27,101,10,134,40,178,0,185,140,35,Agriculture,1,3,9,4,6,10,7,Female,No Preference
+142,143,181,118,55,137,22,163,45,145,18,175,158,129,150,68,Construction;Manufacturing;Consumer Goods;Pharmaceuticals,3,10,7,4,9,5,6,Female,No Preference
+143,31,114,174,101,70,43,79,118,116,88,179,120,9,132,187,Hospitality;Biotechnology,1,8,2,9,3,7,4,Male,No Preference
+144,10,84,79,172,145,154,179,149,128,9,191,61,88,85,62,Mining;Real Estate;Agriculture,10,8,1,6,4,2,3,Male,No Preference
+145,33,186,97,140,22,77,53,147,170,62,16,124,40,83,193,Automotive;Agriculture;Telecommunications;Transportation and Logistics,10,7,4,1,5,2,9,Female,No Preference
+146,166,50,13,17,135,112,159,82,33,147,190,19,149,97,0,Energy;Real Estate;Agriculture;Information Technology;Pharmaceuticals,9,7,2,3,6,5,4,Female,No Preference
+147,92,111,90,35,126,101,10,141,170,137,55,58,40,110,44,Agriculture,9,8,2,3,7,10,5,Male,No Preference
+148,84,83,141,118,152,186,106,155,30,88,170,134,110,51,92,Consumer Goods;Construction;Agriculture;Biotechnology,3,1,2,10,8,4,6,Female,Female
+149,109,68,39,152,106,139,181,107,191,23,141,104,179,140,154,Transportation and Logistics;Pharmaceuticals;Mining;Automotive;Manufacturing,3,1,8,5,9,4,10,Female,No Preference
+150,51,67,40,100,13,45,31,30,118,22,154,33,70,63,178,Biotechnology;Consumer Goods;Telecommunications,8,6,5,7,2,1,9,Male,No Preference
+151,30,82,14,29,94,129,154,116,55,191,2,88,181,43,156,Hospitality;Real Estate;Biotechnology,7,1,2,9,8,6,3,Female,No Preference
+152,81,129,33,37,80,171,177,182,71,46,5,108,41,22,54,Real Estate;Energy;Consumer Goods;Telecommunications;Information Technology,9,5,1,8,7,3,6,Male,No Preference
+153,176,144,4,99,169,126,132,86,155,104,58,1,33,79,57,Mining;Real Estate;Telecommunications,10,3,6,8,4,1,5,Male,No Preference
+154,81,129,22,39,181,183,41,186,103,85,106,51,175,24,93,Consumer Goods,2,5,8,7,4,3,10,Female,No Preference
+155,138,187,76,9,86,121,155,64,119,88,181,66,54,49,112,Hospitality,9,6,1,10,7,3,8,Female,No Preference
+156,125,167,134,77,139,165,17,178,147,114,30,152,157,145,56,Biotechnology;Consumer Goods;Construction;Information Technology;Automotive,9,7,4,3,8,5,10,Female,No Preference
+157,45,189,0,42,126,148,17,49,161,160,180,133,79,122,84,Real Estate;Pharmaceuticals,2,6,10,7,4,3,5,Male,No Preference
+158,110,138,72,44,15,111,180,65,117,192,56,170,80,114,21,Information Technology;Manufacturing;Agriculture,9,10,1,8,7,3,6,Male,No Preference
+159,70,150,134,131,27,97,23,167,74,2,36,126,170,65,17,Agriculture;Telecommunications;Construction;Manufacturing;Information Technology,1,6,10,4,2,5,3,Female,Female
+160,83,181,55,24,57,152,108,163,135,154,62,27,54,116,136,Biotechnology;Hospitality;Agriculture;Automotive,6,8,4,5,7,2,10,Female,No Preference
+161,107,193,81,108,141,38,85,125,19,97,13,101,117,143,89,Construction;Information Technology,3,10,9,2,8,6,1,Female,No Preference
+162,106,78,55,21,28,7,114,194,62,199,123,111,165,143,14,Agriculture;Energy;Manufacturing;Real Estate,9,8,10,7,2,4,5,Male,No Preference
+163,20,54,167,182,117,19,177,171,58,44,74,0,190,173,184,Biotechnology;Telecommunications;Energy;Consumer Goods;Agriculture,7,2,1,3,6,4,9,Female,No Preference
+164,50,45,58,48,51,54,57,93,181,175,110,120,117,139,92,Consumer Goods;Agriculture,4,1,8,7,10,5,6,Female,No Preference
+165,42,47,58,76,193,154,181,172,15,39,13,106,46,189,51,Telecommunications,10,9,2,6,8,4,3,Male,No Preference
+166,43,52,48,118,141,9,2,171,160,134,78,110,107,30,165,Transportation and Logistics;Biotechnology;Automotive,7,9,10,6,1,5,4,Female,Female
+167,45,77,107,64,142,155,118,7,42,128,28,13,37,62,154,Automotive;Telecommunications;Hospitality,9,5,2,4,6,8,1,Male,No Preference
+168,39,186,7,6,41,17,130,145,89,163,180,118,188,141,8,Hospitality;Consumer Goods;Information Technology,4,5,10,1,8,6,9,Male,No Preference
+169,107,101,116,81,24,117,126,155,108,171,75,119,123,84,12,Construction,8,2,7,5,1,9,6,Female,No Preference
+170,54,167,125,139,165,108,117,115,158,39,37,21,4,89,26,Information Technology;Mining,10,8,7,1,6,9,5,Male,No Preference
+171,137,45,106,183,185,125,93,39,74,24,181,120,156,41,50,Consumer Goods,4,5,8,9,3,6,7,Female,No Preference
+172,0,82,5,34,64,99,122,56,84,101,73,108,128,139,51,Construction;Transportation and Logistics;Real Estate;Pharmaceuticals,3,10,4,5,7,2,1,Female,No Preference
+173,114,37,135,151,88,5,120,131,29,79,179,62,184,156,41,Biotechnology,3,10,1,4,8,7,6,Female,No Preference
+174,132,190,25,170,155,110,97,21,117,34,40,100,107,185,150,Pharmaceuticals;Automotive;Transportation and Logistics;Consumer Goods;Energy,1,9,7,2,4,6,10,Female,Female
+175,114,161,177,198,120,19,58,100,106,17,72,131,36,117,150,Biotechnology;Hospitality;Mining,5,1,6,2,8,4,9,Male,No Preference
+176,124,86,77,127,66,168,134,6,140,15,189,22,54,151,179,Real Estate;Manufacturing;Information Technology;Energy;Hospitality,3,7,10,8,9,2,4,Female,No Preference
+177,34,107,138,178,86,54,36,71,172,166,39,165,28,133,18,Consumer Goods;Manufacturing;Hospitality;Automotive;Telecommunications,3,10,2,1,5,8,6,Female,No Preference
+178,174,192,57,137,27,169,172,92,91,88,122,127,0,126,72,Agriculture;Transportation and Logistics,9,5,6,8,3,7,1,Female,No Preference
+179,136,25,137,132,110,101,106,178,159,122,185,67,87,11,57,Pharmaceuticals;Agriculture;Automotive,7,6,4,2,5,10,1,Male,No Preference
+180,61,150,163,134,57,107,66,69,126,16,54,131,23,152,112,Agriculture;Information Technology;Pharmaceuticals;Hospitality;Transportation and Logistics,5,8,1,4,7,3,6,Male,No Preference
+181,128,63,161,19,13,103,145,3,41,80,45,35,138,116,8,Information Technology,5,10,8,2,4,3,1,Male,Male
+182,113,117,156,183,92,144,186,150,48,17,21,121,134,115,141,Consumer Goods;Mining,10,7,8,1,3,6,5,Female,Female
+183,70,151,107,78,21,97,140,150,170,9,106,56,134,171,62,Pharmaceuticals;Energy,10,8,3,6,5,2,4,Female,Female
+184,133,145,64,177,46,58,86,75,109,129,1,49,116,35,87,Mining;Manufacturing;Biotechnology;Pharmaceuticals,1,10,5,2,3,7,9,Male,Male
+185,194,77,76,68,193,124,161,9,3,19,54,82,88,80,2,Real Estate;Information Technology,10,7,4,2,3,9,1,Female,No Preference
+186,85,112,188,77,145,115,53,66,67,24,122,100,80,196,197,Automotive;Construction,4,9,6,5,8,1,10,Male,No Preference
+187,62,29,11,171,128,13,190,147,82,79,59,2,50,192,33,Telecommunications;Automotive;Real Estate;Energy,5,3,6,1,10,8,7,Male,No Preference
+188,36,12,187,155,9,66,167,169,60,72,54,144,132,174,37,Hospitality,10,3,5,9,1,8,7,Male,No Preference
+189,79,97,150,66,85,109,155,30,125,111,22,117,114,143,138,Transportation and Logistics;Agriculture;Manufacturing;Biotechnology;Construction,5,10,4,2,6,7,3,Female,No Preference
+190,153,134,139,183,8,29,107,60,62,181,70,147,48,21,175,Consumer Goods;Manufacturing;Information Technology,6,7,9,4,10,8,1,Female,No Preference
+191,42,149,21,180,172,96,99,20,128,79,106,86,148,138,186,Telecommunications;Real Estate,7,3,10,5,8,6,2,Male,No Preference
+192,147,20,62,177,45,117,17,23,31,9,40,22,195,193,118,Information Technology;Agriculture;Real Estate;Manufacturing,2,9,6,7,3,4,5,Female,No Preference
+193,111,79,7,146,78,199,67,182,59,138,29,16,13,47,12,Agriculture;Telecommunications;Energy;Consumer Goods;Automotive,10,4,2,3,1,8,5,Male,No Preference
+194,124,33,0,55,151,138,35,141,83,57,116,52,22,192,44,Agriculture;Transportation and Logistics,7,3,5,10,4,8,2,Female,No Preference
+195,138,116,167,37,107,150,11,93,109,86,158,44,132,52,193,Manufacturing;Construction;Transportation and Logistics;Hospitality,5,7,1,8,6,10,4,Female,No Preference
+196,75,102,178,116,180,85,109,124,45,6,37,18,93,71,76,Manufacturing;Pharmaceuticals;Biotechnology,3,9,5,4,6,1,10,Male,Male
+197,63,31,71,94,9,169,67,11,174,50,189,116,182,184,151,Biotechnology;Energy,9,6,2,4,3,10,8,Male,No Preference
+198,51,48,50,117,11,155,126,190,78,114,178,186,161,13,169,Energy;Telecommunications,5,7,9,6,2,3,8,Male,No Preference
+199,111,177,24,41,104,178,139,129,66,45,188,76,181,189,169,Transportation and Logistics;Automotive;Consumer Goods,10,9,3,5,4,8,1,Male,Male
