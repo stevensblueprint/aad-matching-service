@@ -9,6 +9,7 @@ class MatchingAlgorithm:
     self.num_preferences = num_preferences
     self.num_questions = num_questions
     self.size = self.mentor_df.shape[0]
+    self.width = self.mentor_df.shape[1]
     self.scores = np.zeros((self.size, self.size)) # row is mentor, column is mentee
     self.mentor_weight = mentor_weight / mentee_weight
     self.mentor_top_pref = self.mentor_df.iloc[:,1:1+self.num_preferences]
@@ -43,19 +44,25 @@ class MatchingAlgorithm:
     temp_scores = np.zeros((self.size, self.size))
 
     for i in range(self.mentor_df.shape[0]):
+      mentor_industries = self.mentor_df.iloc[i, 1 + self.num_preferences]
+      mentor_gender = self.mentor_df.iloc[i,self.width-2]
+      mentor_pref = self.mentor_df.iloc[i,self.width-1]
       for j in range(self.mentee_df.shape[0]):
-        mentor_industries = self.mentor_df.iloc[i, 1 + self.num_preferences]
         mentee_industries = self.mentee_df.iloc[j, 1 + self.num_preferences]
+        mentee_gender = self.mentee_df.iloc[j,self.width-2]
+        mentee_pref = self.mentee_df.iloc[j,self.width-1]
         industries = mentor_industries.intersection(mentee_industries)
-        if len(industries) > 0:
-          temp_scores[i][j] = 10 * self.num_questions + 10 * np.sqrt(len(industries))
+        if len(industries) > 0 and mentor_pref == "No Preference" or mentor_pref == mentee_gender and mentee_pref == "No Preference" or mentee_pref == mentor_gender:
+          temp_scores[i][j] += (10 * self.num_questions + 10 * np.sqrt(len(industries))) * 2
+        elif len(industries) > 0:
+          temp_scores[i][j] += 10 * self.num_questions + 10 * np.sqrt(len(industries))
 
     for i in range(self.mentor_df.shape[0]):
       for j in range(self.mentee_df.shape[0]):
-        residual_sum = (10 - (self.mentor_df.iloc[i,2+self.num_preferences:2+self.num_preferences+self.num_questions] - self.mentee_df.iloc[j,2+self.num_preferences:2+self.num_preferences+self.num_questions]).abs()).sum()
+        residual_sum = (10 - (self.mentor_df.iloc[i,2+self.num_preferences:self.width - 2] - self.mentee_df.iloc[j,2+self.num_preferences:self.width - 2]).abs()).sum()
         temp_scores[i][j] += residual_sum
 
-    # Normalize the data to range from 0 to self.base - 1 and add to scores
+    # Normalize the data to range from 0 to 99 and add to scores
     temp_scores = (temp_scores - temp_scores.min()) * 99 / (temp_scores.max() - temp_scores.min())    
     self.scores += temp_scores
 
