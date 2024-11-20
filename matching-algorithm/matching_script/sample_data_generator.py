@@ -30,7 +30,7 @@ class RandomDataGenerator:
 
     for i in range(0, self.num_people * 2):
       self.df.loc[i, [f'Preference {j+1}' for j in range(self.num_preferences)]] = 0
-      specific_industries = random.sample(industries, random.randint(1,5))
+      specific_industries = random.sample(industries, random.randint(1,3))
       self.df.loc[i, 'Industry'] = ";".join(specific_industries)
       self.df.loc[i, [f'Rank {j+1}' for j in range(self.num_questions)]] = random.sample(range(1, 11), self.num_questions)
       self.df.loc[i, 'Gender'] = random.choices(genders, weights = gender_weighting, k = 1)[0]
