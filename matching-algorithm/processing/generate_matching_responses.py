@@ -71,7 +71,7 @@ def generate_responses(mentee_directory, mentor_directory):
     }
 
   df = pd.DataFrame(matching_form_schema)
-  print(df.shape)
+  return df
 
 def generate_mentor_response():
   pass
