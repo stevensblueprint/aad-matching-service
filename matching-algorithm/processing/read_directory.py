@@ -1,5 +1,11 @@
-def parse_directory(type, filepath):
-  """
-  type: mentor, mentee
-  filepath: the directory path to csv
-  """
+import pandas as pd
+
+def read_directory(filepath):
+  """filepath: the directory path to csv"""
+  df = pd.read_csv(filepath)
+  directory = {}
+
+  for index, row in df.iterrows():
+    directory[row.iloc(0)] = row
+
+  return directory
