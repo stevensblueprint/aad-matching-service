@@ -1,4 +1,7 @@
 import pandas as pd
+import random
+
+from .read_directory import read_directory
 
 def generate_responses(mentee_directory, mentor_directory):
   """
@@ -71,6 +74,27 @@ def generate_responses(mentee_directory, mentor_directory):
     }
 
   df = pd.DataFrame(matching_form_schema)
+
+  for mentee in mentee_directory:
+    new_mentee_row = {
+      'Id': random.randint(0, 1000000),
+      'Start time': "2021-05-01T00:00:00Z",
+      'Completion time': "2021-05-01T00:00:00Z",
+      'Email': mentee_directory[mentee]["Email"],
+      'Name': f"{mentee_directory[mentee]['First Name']} {mentee_directory[mentee]['Last Name']}",
+      'KIN Mentorship ID (Link to Spreadsheet)': mentee,
+      'First Name': mentee_directory[mentee]["First Name"],
+      'Last Name': mentee_directory[mentee]["Last Name"],
+      'Email Address': mentee_directory[mentee]["Email"],
+      'Please indicate if you have a preference for what gender your mentor/mentee is:' : random.choice(["Male", "Female", "Nonbinary/Fluid/Gender Queer", "No Preference"])
+    }
+    df = df.append(new_mentee_row, ignore_index=True)
+    pass
+
+  for mentor in mentor_directory:
+    # TODO generate a row for them
+    pass
+
   return df
 
 def generate_mentor_response():
@@ -78,6 +102,10 @@ def generate_mentor_response():
 
 def generate_mentee_response():
   pass
+
+def generate_rating_question():
+  """This should return a number between 0 and 10"""
+  return random.randint(0, 10)
 
 
 # The main function should take a directory of mentors and a directory of mentees
@@ -87,4 +115,7 @@ def generate_mentee_response():
 # These dictionaries should be fed into the generate_responses function as opposed to the path to the .csv themselves
 # The function should return reponses equal in length to the number of mentees and mentors
 
-generate_responses("mentee_directory", "mentor_directory")
+if __name__ == "__main__":
+  mentee_directory = read_directory("mentee_directory_15.csv")
+  mentor_directory = read_directory("mentor_directory_15.csv")
+  generate_responses(mentee_directory, mentor_directory)
