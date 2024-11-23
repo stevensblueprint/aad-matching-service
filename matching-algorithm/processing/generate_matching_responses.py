@@ -112,7 +112,7 @@ def generate_responses(mentee_directory, mentor_directory):
       'Who is your #14 Kin Mentee preference?': "",
       'Who is your #15 Kin Mentee preference?': "",
       'Would you be open to the possibility of having a 1 Kin Mentor: 2 Kin Mentee mentorship partnership?': random.choice(["Yes", "No"]), # START OF MENTEE QUESTIONS
-      'What industries are you interested in receiving mentorship on?': [],  # TODO
+      'What industries are you interested in receiving mentorship on?': generate_industries(),  # TODO
       'How important is enhancing professional skills (resume writing, interviewing, personal brand, presentation skills, etc.)?': generate_rating_question(),
       'How important is securing an internship or full-time employment opportunity?': generate_rating_question(),
       'Who is your #1 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
@@ -159,7 +159,43 @@ def generate_mentee_response():
 
 def generate_rating_question():
   """This should return a number between 1 and 10 inclusive"""
-  return random.randint(0, 10)
+  return random.randint(1, 10)
+
+def generate_industries():
+  """
+  Should be a list of inudstries with ";" as the delimiter
+  """
+  industries = [
+    "Accounting",
+    "Advertising/Marketing",
+    "Aerospace",
+    "Agriculture",
+    "Arts and Design",
+    "Consulting",
+    "Education",
+    "Engineering",
+    "Entertainment",
+    "Entrepreneurship",
+    "Fashion",
+    "Finance",
+    "Food and Beverage",
+    "Government",
+    "Healthcare",
+    "Hospitality",
+    "Human Resources",
+    "Legal",
+    "Media and News",
+    "Nonprofit",
+    "Pharmaceutical",
+    "Real Estate",
+    "Technology",
+    "Other"
+  ]
+  selected_industries = []
+  for i in range(random.randint(1, 5)):
+    selected_industries.append(random.choice(industries))
+
+  return ";".join(selected_industries) + ";"
 
 def read_directory(filepath):
   """
@@ -187,3 +223,4 @@ if __name__ == "__main__":
   mentor_directory = read_directory("mentor_directory_15.csv")
   responses = generate_responses(mentee_directory, mentor_directory)
   print(responses.head())
+  responses.to_csv("matching_responses.csv", index=False)
