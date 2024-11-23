@@ -1,8 +1,6 @@
 import pandas as pd
 import random
 
-from .read_directory import read_directory
-
 def generate_responses(mentee_directory, mentor_directory):
   """
   This function takes a directory of mentees and a directory of mentors 
@@ -76,6 +74,8 @@ def generate_responses(mentee_directory, mentor_directory):
   df = pd.DataFrame(matching_form_schema)
 
   for mentee in mentee_directory:
+    mentor_ids = list(mentor_directory.keys())
+
     new_mentee_row = {
       'Id': random.randint(0, 1000000),
       'Start time': "2021-05-01T00:00:00Z",
@@ -86,10 +86,58 @@ def generate_responses(mentee_directory, mentor_directory):
       'First Name': mentee_directory[mentee]["First Name"],
       'Last Name': mentee_directory[mentee]["Last Name"],
       'Email Address': mentee_directory[mentee]["Email"],
-      'Please indicate if you have a preference for what gender your mentor/mentee is:' : random.choice(["Male", "Female", "Nonbinary/Fluid/Gender Queer", "No Preference"])
+      'Please indicate if you have a preference for what gender your mentor/mentee is:' : random.choice(["Male", "Female", "Nonbinary/Fluid/Gender Queer", "No Preference"]),
+      'How important is accessing and developing a professional AAPI network?': generate_rating_question(),
+      'How open are you to exploring topics outside of your immediate career or academic focus in the mentorship?': generate_rating_question(),
+      'How much do you value a structured mentoring relationship (e.g., goal setting, progress tracking)?': generate_rating_question(),
+      'How important is frequent communication (e.g., weekly or bi-weekly) in a mentoring relationship?': generate_rating_question(),
+      'Select if you are a Kin Mentor or Kin Mentee': "Kin Mentee",
+      'Would you be open to the possibility of having 2 Kin Mentees?': "", # START OF MENTOR QUESTIONS SHOULD BE LEFT BLANK
+      'What industries can you provide mentorship on?': "",
+      'How comfortable do you feel providing guidance on professional skills such as resume writing, interviewing, personal brand, presentation skills, etc.?': "",
+      'How confident do you feel in guiding your mentee in securing an internship or full-time employment opportunity?': "",
+      'Who is your #1 Kin Mentee preference?': "",
+      'Who is your #2 Kin Mentee preference?': "",
+      'Who is your #3 Kin Mentee preference?': "",
+      'Who is your #4 Kin Mentee preference?': "",
+      'Who is your #5 Kin Mentee preference?': "",
+      'Who is your #6 Kin Mentee preference?': "",
+      'Who is your #7 Kin Mentee preference?': "",
+      'Who is your #8 Kin Mentee preference?': "",
+      'Who is your #9 Kin Mentee preference?': "",
+      'Who is your #10 Kin Mentee preference?': "",
+      'Who is your #11 Kin Mentee preference?': "",
+      'Who is your #12 Kin Mentee preference?': "",
+      'Who is your #13 Kin Mentee preference?': "",
+      'Who is your #14 Kin Mentee preference?': "",
+      'Who is your #15 Kin Mentee preference?': "",
+      'Would you be open to the possibility of having a 1 Kin Mentor: 2 Kin Mentee mentorship partnership?': random.choice(["Yes", "No"]), # START OF MENTEE QUESTIONS
+      'What industries are you interested in receiving mentorship on?': [],  # TODO
+      'How important is enhancing professional skills (resume writing, interviewing, personal brand, presentation skills, etc.)?': generate_rating_question(),
+      'How important is securing an internship or full-time employment opportunity?': generate_rating_question(),
+      'Who is your #1 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #2 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #3 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #4 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #5 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #6 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #7 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #8 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #9 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #10 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #11 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #12 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #13 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #14 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'Who is your #15 Kin Mentor preference?': generate_mentor_preference(mentor_ids),
+      'How comfortable do you feel in asking for help in achieving your academic and career goals?': generate_rating_question(),
+      'How prepared do you feel to take the next steps in your career?': generate_rating_question(),
+      'How connected do you feel to a network of professionals to achieve your academic and career goals?': generate_rating_question(),
+      'As an AAPI student, how empowered (supported and confident) do you feel in your ability to achieve your career goals?': generate_rating_question(),
+      'How connected do you feel to the AAPI community?': generate_rating_question(),
+      'Is there anything else that you would like us to consider as part of the matching process?': "Filler String"
     }
-    df = df.append(new_mentee_row, ignore_index=True)
-    pass
+    df = df._append(new_mentee_row, ignore_index=True)
 
   for mentor in mentor_directory:
     # TODO generate a row for them
@@ -97,15 +145,34 @@ def generate_responses(mentee_directory, mentor_directory):
 
   return df
 
-def generate_mentor_response():
-  pass
+def generate_mentor_preference(mentor_ids):
+  """Takes a list of mentor ids selects random preference, and removes that id from the list"""
+  if not mentor_ids:
+    return "" # TODO: This should not happen but if it does, we should handle it
+  
+  random_mentor = random.choice(mentor_ids) 
+  mentor_ids.remove(random_mentor)
+  return random_mentor
 
 def generate_mentee_response():
   pass
 
 def generate_rating_question():
-  """This should return a number between 0 and 10"""
+  """This should return a number between 1 and 10 inclusive"""
   return random.randint(0, 10)
+
+def read_directory(filepath):
+  """
+  filepath: the directory path to csv
+  returns: a dictionary where the key is the KIN ID and the value is a pandas series
+  """
+  df = pd.read_csv(filepath)
+  directory = {}
+
+  for index, row in df.iterrows():
+    directory[row["KIN ID"]] = row.drop("KIN ID")
+
+  return directory
 
 
 # The main function should take a directory of mentors and a directory of mentees
@@ -118,4 +185,5 @@ def generate_rating_question():
 if __name__ == "__main__":
   mentee_directory = read_directory("mentee_directory_15.csv")
   mentor_directory = read_directory("mentor_directory_15.csv")
-  generate_responses(mentee_directory, mentor_directory)
+  responses = generate_responses(mentee_directory, mentor_directory)
+  print(responses.head())
