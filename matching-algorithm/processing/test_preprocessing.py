@@ -28,8 +28,7 @@ def validate_processed_csv(file_path: str):
 # Test case
 def test_processed_csv_schema():
     # Assuming processed CSV is generated as `processed_data.csv`
-    # processed_csv_path = "processed_data.csv"
-    processed_csv_path = "input_data.csv"  # Placeholder path
+    processed_csv_path = "processed_data.csv"
     try:
         validate_processed_csv(processed_csv_path)
         print("All rows in the processed CSV conform to the schema.")

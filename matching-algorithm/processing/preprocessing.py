@@ -19,15 +19,20 @@ def process_form_data(form_data):
     # Drop the data collection questions (last 6 columns)
     df = df.drop(df.columns[:5].tolist() + df.columns[-6:].tolist(), axis=1)
 
-    # Can drop names and emails since they are not needed for the algorithm
+    # # Can drop names and emails since they are not needed for the algorithm
     df = df.drop(["First Name", "Last Name", "Email Address"], axis=1)
 
     # TODO: Replace NaN values with 0? How can we factor them out so they have minimal impact on the algorithm?
 
     # Rename the first column to "Participant" by index
     df.columns.values[0] = "ID"
-    df.columns.values[2] = "gender"
-
+    df.columns.values[1] = "gender"
+    df.columns.values[2] = "Rank 1"
+    df.columns.values[3] = "Rank 2"
+    df.columns.values[4] = "Rank 3"
+    df.columns.values[5] = "Rank 4"
+    df.columns.values[6] = "Mentor or Mentee?"
+    
     for row in df.iterrows():
         pass
 
