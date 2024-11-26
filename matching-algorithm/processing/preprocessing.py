@@ -22,7 +22,14 @@ def process_form_data(form_data):
     # Can drop names and emails since they are not needed for the algorithm
     df = df.drop(["First Name", "Last Name", "Email Address"], axis=1)
 
-    
+    # TODO: Replace NaN values with 0? How can we factor them out so they have minimal impact on the algorithm?
+
+    # Rename the first column to "Participant" by index
+    df.columns.values[0] = "ID"
+    df.columns.values[2] = "gender"
+
+    for row in df.iterrows():
+        pass
 
     df.to_csv("processed_data.csv", index=False)
 
