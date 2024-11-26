@@ -29,3 +29,9 @@ pip install -r "requirements.txt"
 * `data/` - This directory will hold the data for the matching algorithm.
 * `processing/` - This directory will hold the code for processing the data.
 * `matching_script/` - This directory will hold the code for the matching algorithm.
+
+# TODOS:
+- [X] Write the matching algorithm.
+- [X] Write the processing code.
+- [ ] Refactor code with pydantic or another library to connect matching-script and processing
+- [ ] Write a function to generate IDs for the Directory
