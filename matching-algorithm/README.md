@@ -35,3 +35,4 @@ pip install -r "requirements.txt"
 - [X] Write the processing code.
 - [ ] Refactor code with pydantic or another library to connect matching-script and processing
 - [ ] Write a function to generate IDs for the Directory
+- [ ] Create Form Mappings to handle changes

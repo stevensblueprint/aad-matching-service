@@ -1,5 +1,7 @@
 import pandas as pd
 
+# FIXME: Columns names are copying over but not the data
+# TODO: If a user puts an invalid KIN ID, just remove from preferences list and add an additional ID to auto-generate
 def process_form_data(form_data_path):
     """
     Process the raw form data into a format that can be used in the Gale-Shapley algorithm,
