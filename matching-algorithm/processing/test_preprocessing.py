@@ -1,7 +1,8 @@
-from pydantic import BaseModel, ValidationError 
-from typing import List, Dict 
+from pydantic import BaseModel, ValidationError
+from typing import List, Dict
 import pandas as pd
 import pytest
+
 
 # Define the expected schema using Pydantic
 class ParticipantSchema(BaseModel):
@@ -10,6 +11,7 @@ class ParticipantSchema(BaseModel):
     preferences: List[int]  # Up to 15 preferences
     industry: List[str]  # List of industries
     rankings: Dict[str, int]  # Rank 1 to Rank 7 as keys
+
 
 # Function to load and validate processed CSV against the schema
 def validate_processed_csv(file_path: str):
@@ -25,6 +27,7 @@ def validate_processed_csv(file_path: str):
         # Validate each row against the schema
         ParticipantSchema(**participant_data)
 
+
 # Test case
 def test_processed_csv_schema():
     # Assuming processed CSV is generated as `processed_data.csv`
@@ -34,6 +37,7 @@ def test_processed_csv_schema():
         print("All rows in the processed CSV conform to the schema.")
     except ValidationError as e:
         print(f"Validation error: {e}")
+
 
 # Run the test (This would typically be run using pytest)
 test_processed_csv_schema()
