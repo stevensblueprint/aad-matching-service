@@ -23,24 +23,25 @@ def process_form_data(form_data_path):
     # Step 1: Retain common columns
     # Rename common columns for clarity
     column_mapping_common = {
-        raw_data_df.columns[6]: "ID",  # Participant ID
-        raw_data_df.columns[15]: "Mentor or Mentee?",  # Mentor or Mentee
-        raw_data_df.columns[11]: "Rank 1",  # First common rank question
-        raw_data_df.columns[12]: "Rank 2",  # Second common rank question
-        raw_data_df.columns[13]: "Rank 3",  # Third common rank question
-        raw_data_df.columns[14]: "Rank 4",  # Fourth common rank question
+        raw_data_df.columns[5]: "id",  # Participant ID
+        raw_data_df.columns[10]: "rank_1",  # First common rank question
+        raw_data_df.columns[11]: "rank_2",  # Second common rank question
+        raw_data_df.columns[12]: "rank_3",  # Third common rank question
+        raw_data_df.columns[13]: "rank_4",  # Fourth common rank question
+        raw_data_df.columns[14]: "mentor_or_mentee",  # Mentor or Mentee
     }
 
     raw_data_df = raw_data_df.rename(columns=column_mapping_common)
 
+    # FIXME: maybe read at the end after renaming and processing all the columns
     # Retain common columns
-    # FIXME: Should all the copying be done at the end instead?
     processed_data_df = raw_data_df[
-        ["ID", "Mentor or Mentee?", "Rank 1", "Rank 2", "Rank 3", "Rank 4"]
+        ["id", "mentor_or_mentee", "rank_1", "rank_2", "rank_3", "rank_4"]
     ]
 
     # Step 2: Process Mentor and Mentee-specific columns
     mentor_columns = {
+        "multiple_mentors": raw_data_df.columns[15],
         "industry": raw_data_df.columns[16],  # Industry column for mentors
         "rankings": list(raw_data_df.columns[17:19]),  # Additional ranking questions
         "preferences": list(
@@ -48,7 +49,10 @@ def process_form_data(form_data_path):
         ),  # Preferences for mentors (columns 19-34)
     }
 
+    print(mentor_columns["multiple_mentors"])
+
     mentee_columns = {
+        "multiple_mentees": raw_data_df.columns[34],
         "industry": raw_data_df.columns[35],  # Industry column for mentees
         "rankings": list(raw_data_df.columns[36:38]),  # Additional ranking questions
         "preferences": list(
@@ -56,37 +60,39 @@ def process_form_data(form_data_path):
         ),  # Preferences for mentees (columns 38-53)
     }
 
+    print(mentee_columns["multiple_mentees"])
+
     # Separate data for mentors and mentees
-    mentors = raw_data_df[raw_data_df["Mentor or Mentee?"] == "Mentor"]
-    mentees = raw_data_df[raw_data_df["Mentor or Mentee?"] == "Mentee"]
+    mentors = raw_data_df[raw_data_df["mentor_or_mentee"] == "Mentor"]
+    mentees = raw_data_df[raw_data_df["mentor_or_mentee"] == "Mentee"]
 
     # Process Mentor Data
     mentors_processed = mentors[
-        ["ID"]
+        ["id"]
         + mentor_columns["preferences"]
-        + ["Rank 1", "Rank 2", "Rank 3", "Rank 4"]
+        + ["rank_1", "rank_2", "rank_3", "rank_4"]
     ]
     mentors_processed = mentors_processed.rename(
         columns={
-            col: f"Preference {i+1}"
+            col: f"preference_{i+1}"
             for i, col in enumerate(mentor_columns["preferences"])
         }
     )
-    mentors_processed["Industry"] = mentors[mentor_columns["industry"]]
+    mentors_processed["industry"] = mentors[mentor_columns["industry"]]
 
     # Process Mentee Data
     mentees_processed = mentees[
-        ["ID"]
+        ["id"]
         + mentee_columns["preferences"]
-        + ["Rank 1", "Rank 2", "Rank 3", "Rank 4"]
+        + ["rank_1", "rank_2", "rank_3", "rank_4"]
     ]
     mentees_processed = mentees_processed.rename(
         columns={
-            col: f"Preference {i+1}"
+            col: f"preference {i+1}"
             for i, col in enumerate(mentee_columns["preferences"])
         }
     )
-    mentees_processed["Industry"] = mentees[mentee_columns["industry"]]
+    mentees_processed["industry"] = mentees[mentee_columns["industry"]]
 
     # Combine the processed data
     processed_data_df = pd.concat(
