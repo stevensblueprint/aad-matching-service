@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-# FIXME: Columns names are copying over but not the data
 # TODO: If a user puts an invalid KIN ID, just remove from preferences list and add an additional ID to auto-generate
 def process_form_data(form_data_path):
     """
@@ -17,11 +16,7 @@ def process_form_data(form_data_path):
     # Load the raw form data
     raw_data_df = pd.read_csv(form_data_path)
 
-    # Create a new DataFrame for processed results
-    processed_data_df = pd.DataFrame()
-
     # Step 1: Retain common columns
-    # Rename common columns for clarity
     column_mapping_common = {
         raw_data_df.columns[5]: "id",  # Participant ID
         raw_data_df.columns[10]: "rank_1",  # First common rank question
@@ -31,76 +26,73 @@ def process_form_data(form_data_path):
         raw_data_df.columns[14]: "mentor_or_mentee",  # Mentor or Mentee
     }
 
+    # Step 2: Process Mentor and Mentee-specific columns
+    column_mapping_mentor = {
+        raw_data_df.columns[15]: "multiple_mentors",  # Multiple mentors
+        raw_data_df.columns[16]: "industry",  # Industry column for mentors
+        raw_data_df.columns[17]: "rank_5",  # Fifth rank question for mentors
+        raw_data_df.columns[18]: "rank_6",  # Sixth rank question for mentors
+        raw_data_df.columns[19]: "preference_1",  # First preference for mentors
+        raw_data_df.columns[20]: "preference_2",  # Second preference for mentors
+        raw_data_df.columns[21]: "preference_3",  # Third preference for mentors
+        raw_data_df.columns[22]: "preference_4",  # Fourth preference for mentors
+        raw_data_df.columns[23]: "preference_5",  # Fifth preference for mentors
+        raw_data_df.columns[24]: "preference_6",  # Sixth preference for mentors
+        raw_data_df.columns[25]: "preference_7",  # Seventh preference for mentors
+        raw_data_df.columns[26]: "preference_8",  # Eighth preference for mentors
+        raw_data_df.columns[27]: "preference_9",  # Ninth preference for mentors
+        raw_data_df.columns[28]: "preference_10",  # Tenth preference for mentors
+        raw_data_df.columns[29]: "preference_11",  # Eleventh preference for mentors
+        raw_data_df.columns[30]: "preference_12",  # Twelfth preference for mentors
+        raw_data_df.columns[31]: "preference_13",  # Thirteenth preference for mentors
+        raw_data_df.columns[32]: "preference_14",  # Fourteenth preference for mentors
+        raw_data_df.columns[33]: "preference_15",  # Fifteenth preference for mentors
+    }
+
+    column_mapping_mentee = {
+        raw_data_df.columns[34]: "multiple_mentees",  # Multiple mentees
+        raw_data_df.columns[35]: "industry",  # Industry column for mentees
+        raw_data_df.columns[36]: "rank_5",  # Fifth rank question for mentees
+        raw_data_df.columns[37]: "rank_6",  # Sixth rank question for mentees
+        raw_data_df.columns[38]: "preference_1",  # First preference for mentees
+        raw_data_df.columns[39]: "preference_2",  # Second preference for mentees
+        raw_data_df.columns[40]: "preference_3",  # Third preference for mentees
+        raw_data_df.columns[41]: "preference_4",  # Fourth preference for mentees
+        raw_data_df.columns[42]: "preference_5",  # Fifth preference for mentees
+        raw_data_df.columns[43]: "preference_6",  # Sixth preference for mentees
+        raw_data_df.columns[44]: "preference_7",  # Seventh preference for mentees
+        raw_data_df.columns[45]: "preference_8",  # Eighth preference for mentees
+        raw_data_df.columns[46]: "preference_9",  # Ninth preference for mentees
+        raw_data_df.columns[47]: "preference_10",  # Tenth preference for mentees
+        raw_data_df.columns[48]: "preference_11",  # Eleventh preference for mentees
+        raw_data_df.columns[49]: "preference_12",  # Twelfth preference for mentees
+        raw_data_df.columns[50]: "preference_13",  # Thirteenth preference for mentees
+        raw_data_df.columns[51]: "preference_14",  # Fourteenth preference for mentees
+        raw_data_df.columns[52]: "preference_15",  # Fifteenth preference for mentees
+    }
+
     raw_data_df = raw_data_df.rename(columns=column_mapping_common)
 
-    # FIXME: maybe read at the end after renaming and processing all the columns
-    # Retain common columns
-    processed_data_df = raw_data_df[
-        ["id", "mentor_or_mentee", "rank_1", "rank_2", "rank_3", "rank_4"]
-    ]
+    # TODO: maybe rename Kin Mentor to 'mentor' and Kin Mentee to 'mentee'
+    mentors = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentor"].copy()
+    mentees = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentee"].copy()
 
-    # Step 2: Process Mentor and Mentee-specific columns
-    mentor_columns = {
-        "multiple_mentors": raw_data_df.columns[15],
-        "industry": raw_data_df.columns[16],  # Industry column for mentors
-        "rankings": list(raw_data_df.columns[17:19]),  # Additional ranking questions
-        "preferences": list(
-            raw_data_df.columns[19:34]
-        ),  # Preferences for mentors (columns 19-34)
-    }
+    mentors = mentors.rename(columns=column_mapping_mentor)
+    mentees = mentees.rename(columns=column_mapping_mentee)
+    # Combine mentor and mentee data with the same schema
+    combined_data = pd.concat([mentors, mentees], ignore_index=True)
 
-    print(mentor_columns["multiple_mentors"])
-
-    mentee_columns = {
-        "multiple_mentees": raw_data_df.columns[34],
-        "industry": raw_data_df.columns[35],  # Industry column for mentees
-        "rankings": list(raw_data_df.columns[36:38]),  # Additional ranking questions
-        "preferences": list(
-            raw_data_df.columns[38:53]
-        ),  # Preferences for mentees (columns 38-53)
-    }
-
-    print(mentee_columns["multiple_mentees"])
-
-    # Separate data for mentors and mentees
-    mentors = raw_data_df[raw_data_df["mentor_or_mentee"] == "Mentor"]
-    mentees = raw_data_df[raw_data_df["mentor_or_mentee"] == "Mentee"]
-
-    # Process Mentor Data
-    mentors_processed = mentors[
-        ["id"]
-        + mentor_columns["preferences"]
-        + ["rank_1", "rank_2", "rank_3", "rank_4"]
-    ]
-    mentors_processed = mentors_processed.rename(
-        columns={
-            col: f"preference_{i+1}"
-            for i, col in enumerate(mentor_columns["preferences"])
-        }
+    # Retain the desired schema order
+    schema_columns = (
+        ["id", "mentor_or_mentee"]
+        + [f"preference_{i}" for i in range(1, 16)]
+        + ["industry"]
+        + [f"rank_{i}" for i in range(1, 7)]
     )
-    mentors_processed["industry"] = mentors[mentor_columns["industry"]]
-
-    # Process Mentee Data
-    mentees_processed = mentees[
-        ["id"]
-        + mentee_columns["preferences"]
-        + ["rank_1", "rank_2", "rank_3", "rank_4"]
-    ]
-    mentees_processed = mentees_processed.rename(
-        columns={
-            col: f"preference {i+1}"
-            for i, col in enumerate(mentee_columns["preferences"])
-        }
-    )
-    mentees_processed["industry"] = mentees[mentee_columns["industry"]]
-
-    # Combine the processed data
-    processed_data_df = pd.concat(
-        [mentors_processed, mentees_processed], ignore_index=True
-    )
+    combined_data = combined_data[schema_columns]
 
     # Step 3: Save the processed data to a CSV file
-    processed_data_df.to_csv("processed_data.csv", index=False)
+    combined_data.to_csv("processed_data.csv", index=False)
     print("Processed data saved to 'processed_data.csv'.")
 
 
