@@ -18,11 +18,11 @@ def validate_processed_csv(file_path: str):
     processed_data = pd.read_csv(file_path)
     for _, row in processed_data.iterrows():
         participant_data = {
-            "id": row["ID"],
-            "role": row["Mentor or Mentee?"],
-            "preferences": [row[f"Preference {i}"] for i in range(1, 16)],
-            "industry": row["Industry"].split(";"),
-            "rankings": {f"Rank {i}": row[f"Rank {i}"] for i in range(1, 8)},
+            "id": row["id"],
+            "role": row["Mentor or Mentee"],
+            "preferences": [row[f"preference_{i}"] for i in range(1, 16)],
+            "industry": row["industry"].split(";"),
+            "rankings": {f"rank_{i}": row[f"rank_{i}"] for i in range(1, 7)},
         }
         # Validate each row against the schema
         ParticipantSchema(**participant_data)

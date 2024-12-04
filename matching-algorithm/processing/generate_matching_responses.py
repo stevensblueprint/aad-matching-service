@@ -119,7 +119,7 @@ def generate_responses(mentee_directory, mentor_directory):
             "Would you be open to the possibility of having a 1 Kin Mentor: 2 Kin Mentee mentorship partnership?": random.choice(
                 ["Yes", "No"]
             ),  # START OF MENTEE QUESTIONS
-            "What industries are you interested in receiving mentorship on?": generate_industries(),  # TODO
+            "What industries are you interested in receiving mentorship on?": generate_industries(),
             "How important is enhancing professional skills (resume writing, interviewing, personal brand, presentation skills, etc.)?": generate_rating_question(),
             "How important is securing an internship or full-time employment opportunity?": generate_rating_question(),
             "Who is your #1 Kin Mentor preference?": generate_preference(mentor_ids),
