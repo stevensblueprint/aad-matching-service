@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-# TODO: If a user puts an invalid KIN ID, just remove from preferences list and add an additional ID to auto-generate
 def process_form_data(form_data_path):
     """
     Process the raw form data into a format that can be used in the Gale-Shapley algorithm,
@@ -23,7 +22,9 @@ def process_form_data(form_data_path):
         raw_data_df.columns[11]: "rank_2",  # Second common rank question
         raw_data_df.columns[12]: "rank_3",  # Third common rank question
         raw_data_df.columns[13]: "rank_4",  # Fourth common rank question
-        raw_data_df.columns[14]: "mentor_or_mentee",  # Mentor or Mentee
+        raw_data_df.columns[
+            14
+        ]: "Mentor or Mentee",  # FIXME: can we change to mentor_or_mentee
     }
 
     # Step 2: Process Mentor and Mentee-specific columns
@@ -73,9 +74,11 @@ def process_form_data(form_data_path):
 
     raw_data_df = raw_data_df.rename(columns=column_mapping_common)
 
-    # TODO: maybe rename Kin Mentor to 'mentor' and Kin Mentee to 'mentee'
-    mentors = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentor"].copy()
-    mentees = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentee"].copy()
+    mentors = raw_data_df[raw_data_df["Mentor or Mentee"] == "Kin Mentor"].copy()
+    mentees = raw_data_df[raw_data_df["Mentor or Mentee"] == "Kin Mentee"].copy()
+
+    mentors["Mentor or Mentee"] = "Mentor"
+    mentees["Mentor or Mentee"] = "Mentee"
 
     mentors = mentors.rename(columns=column_mapping_mentor)
     mentees = mentees.rename(columns=column_mapping_mentee)
@@ -84,7 +87,7 @@ def process_form_data(form_data_path):
 
     # Retain the desired schema order
     schema_columns = (
-        ["id", "mentor_or_mentee"]
+        ["id", "Mentor or Mentee"]
         + [f"preference_{i}" for i in range(1, 16)]
         + ["industry"]
         + [f"rank_{i}" for i in range(1, 7)]
