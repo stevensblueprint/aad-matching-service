@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-# TODO: If a user puts an invalid KIN ID, just remove from preferences list and add an additional ID to auto-generate
 def process_form_data(form_data_path):
     """
     Process the raw form data into a format that can be used in the Gale-Shapley algorithm,
@@ -73,9 +72,11 @@ def process_form_data(form_data_path):
 
     raw_data_df = raw_data_df.rename(columns=column_mapping_common)
 
-    # TODO: maybe rename Kin Mentor to 'mentor' and Kin Mentee to 'mentee'
+    # TODO: Change 'mentor_or_mentee' to match Brandon's algorithm
     mentors = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentor"].copy()
+    print(mentors.shape)
     mentees = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentee"].copy()
+    print(mentees.shape)
 
     mentors = mentors.rename(columns=column_mapping_mentor)
     mentees = mentees.rename(columns=column_mapping_mentee)
