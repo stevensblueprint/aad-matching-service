@@ -1,21 +1,20 @@
-# Some Concerns
-- I want to constrain the mentor/mentees preferences to a set list of answers (KIN IDs) to minimize errors in the dataprocessing
-- I want to ensure that the mentor/mentee preferences are not repeated
+# Processing Steps
 
-Natively, Microsoft Forms does not support this.
+1. (Optional): For testing purposes you can generate reponses that mimic the structure of the matching form. To do this, run the following command:
+```bash
+python generate_matching_responses.py
+```
+*Note: The script above requires you to have a list of mentors and mentees in .csv format. You can reference mentee_directory_200.csv for reference*
 
-# Some Solutions
-- Power Forms
-- Create a standalone custom form (TypeScript, React, etc.)
-- Google Forms with Add-Ons
-  - Form Approvals - kind of like auth, ensures only people in the program's responses count towards the program
-  - Dynamic Fields - for easy limiting of responses
-  - Choice Eliminator
-  - FormFacade for aesthetics
-- Typeform
-- JotForm
-- Airtable + Mini Extensions
+2. Run the following command to process the data:
+```bash
+python preprocessing.py
+```
 
-Custom App seems like the most viable option.
-TypeForm and JotForm are too expensive
-Google Forms extensions aren't exactly what we are looking for
+This will generate a file called `processed_data.csv` which can be used in the matching algorithm.
+
+# Bugs and Potential Issues:
+- What if users list the same preference multiple times?
+- What if users input a float?
+- How can we handle errors without interupting the entire process? Ideally we automatically process as much as possible and then output/highlight errors at the end
+- How do we handle a different number of mentors and mentees

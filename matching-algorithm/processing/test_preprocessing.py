@@ -13,6 +13,25 @@ class ParticipantSchema(BaseModel):
     rankings: Dict[str, int]  # Rank 1 to Rank 7 as keys
 
 
+# FIXME: On the algorithm side we may have to change in case people enter duplicate responses
+def test_no_null_values():
+    # Assuming processed CSV is generated as `processed_data.csv`
+    processed_csv_path = "processed_data.csv"
+    processed_data = pd.read_csv(processed_csv_path)
+
+    # Check for NaN values
+    assert (
+        not processed_data.isnull().values.any()
+    ), "There are NaN values in the processed data."
+
+    # Check for empty strings
+    assert not (
+        processed_data.map(lambda x: x == "").values.any()
+    ), "There are empty string values in the processed data."
+
+    print("No NaN or empty string values found in the processed data.")
+
+
 # Function to load and validate processed CSV against the schema
 def validate_processed_csv(file_path: str):
     processed_data = pd.read_csv(file_path)
@@ -37,6 +56,21 @@ def test_processed_csv_schema():
         print("All rows in the processed CSV conform to the schema.")
     except ValidationError as e:
         print(f"Validation error: {e}")
+
+
+def test_int_types():
+    # Assuming processed CSV is generated as `processed_data.csv`
+    processed_csv_path = "processed_data.csv"
+    processed_data = pd.read_csv(processed_csv_path)
+    for i in range(1, 16):
+        assert (
+            processed_data[f"preference_{i}"].dtype == "int64"
+        ), f"Column preference_{i} is not of type int"
+    for i in range(1, 7):
+        assert (
+            processed_data[f"rank_{i}"].dtype == "int64"
+        ), f"Column rank_{i} is not of type int"
+    print("All preference and rank columns are of type int.")
 
 
 # Run the test (This would typically be run using pytest)

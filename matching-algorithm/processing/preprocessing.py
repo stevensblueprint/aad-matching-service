@@ -1,5 +1,7 @@
 import pandas as pd
 
+# TODO: Try-Catch to handle and highlight errors
+
 
 def process_form_data(form_data_path):
     """
@@ -93,6 +95,13 @@ def process_form_data(form_data_path):
         + [f"rank_{i}" for i in range(1, 7)]
     )
     combined_data = combined_data[schema_columns]
+
+    # Convert all float values to int for the algorithm
+    for i in range(1, 16):
+        combined_data[f"preference_{i}"] = combined_data[f"preference_{i}"].astype(int)
+
+    for i in range(1, 7):
+        combined_data[f"rank_{i}"] = combined_data[f"rank_{i}"].astype(int)
 
     # Step 3: Save the processed data to a CSV file
     combined_data.to_csv("processed_data.csv", index=False)
