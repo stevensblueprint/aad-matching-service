@@ -3,18 +3,17 @@ import pandas as pd
 import time
 
 class MatchingAlgorithm:
-  def __init__(self, df, num_preferences, num_questions, mentor_weight, mentee_weight):
-    self.mentor_df = df[df.iloc[:, 1] == 'Mentor']
-    self.mentee_df = df[df.iloc[:, 1] == 'Mentee']
+  def __init__(self, mentor_df, mentee_df, num_preferences, num_questions, mentor_weight, mentee_weight):
+    self.mentor_df = mentor_df
+    self.mentee_df = mentee_df
     self.num_preferences = num_preferences
     self.num_questions = num_questions
     self.size = self.mentor_df.shape[0]
+    self.width = self.mentor_df.shape[1]
     self.scores = np.zeros((self.size, self.size)) # row is mentor, column is mentee
     self.mentor_weight = mentor_weight / mentee_weight
-    self.mentor_df = self.mentor_df.sort_values(by=self.mentor_df.columns[0])
-    self.mentee_df = self.mentee_df.sort_values(by=self.mentee_df.columns[0])
-    self.mentor_top_pref = self.mentor_df.iloc[:,2:2+self.num_preferences]
-    self.mentee_top_pref = self.mentee_df.iloc[:,2:2+self.num_preferences]
+    self.mentor_top_pref = self.mentor_df.iloc[:,1:1+self.num_preferences]
+    self.mentee_top_pref = self.mentee_df.iloc[:,1:1+self.num_preferences]
 
   def create_pairs(self):
     start = time.time()
@@ -26,18 +25,18 @@ class MatchingAlgorithm:
     return self.pairs
 
   def concat_industry(self):
-    self.mentor_df.iloc[:,2+self.num_preferences] = self.mentor_df.iloc[:,2+self.num_preferences].apply(lambda x: set(x.split(';')))
-    self.mentee_df.iloc[:,2+self.num_preferences] = self.mentee_df.iloc[:,2+self.num_preferences].apply(lambda x: set(x.split(';')))
+    self.mentor_df.iloc[:,1+self.num_preferences] = self.mentor_df.iloc[:,1+self.num_preferences].apply(lambda x: set(x.split(';')))
+    self.mentee_df.iloc[:,1+self.num_preferences] = self.mentee_df.iloc[:,1+self.num_preferences].apply(lambda x: set(x.split(';')))
 
   def calculate_scores(self):
     # First add to the score based on mentor/mentee preferences
     for i in range(self.size):
-      preferences = self.mentor_df.iloc[i, 2:self.num_preferences+2]
+      preferences = self.mentor_df.iloc[i, 1:self.num_preferences+1]
       for j, preference in enumerate(preferences):
         self.scores[i][preference] += self.num_preferences * self.mentor_weight * 100 - 100 * j
 
     for i in range(self.size):
-      preferences = self.mentee_df.iloc[i, 2:self.num_preferences+2]
+      preferences = self.mentee_df.iloc[i, 1:self.num_preferences+1]
       for j, preference in enumerate(preferences):
         self.scores[preference][i] += self.num_preferences * 100 - 100 * j
 
@@ -45,19 +44,25 @@ class MatchingAlgorithm:
     temp_scores = np.zeros((self.size, self.size))
 
     for i in range(self.mentor_df.shape[0]):
+      mentor_industries = self.mentor_df.iloc[i, 1 + self.num_preferences]
+      mentor_gender = self.mentor_df.iloc[i,self.width-2]
+      mentor_pref = self.mentor_df.iloc[i,self.width-1]
       for j in range(self.mentee_df.shape[0]):
-        mentor_industries = self.mentor_df.iloc[i, 2 + self.num_preferences]
-        mentee_industries = self.mentee_df.iloc[j, 2 + self.num_preferences]
+        mentee_industries = self.mentee_df.iloc[j, 1 + self.num_preferences]
+        mentee_gender = self.mentee_df.iloc[j,self.width-2]
+        mentee_pref = self.mentee_df.iloc[j,self.width-1]
         industries = mentor_industries.intersection(mentee_industries)
-        if len(industries) > 0:
-          temp_scores[i][j] = 10 * self.num_questions + 10 * np.sqrt(len(industries))
+        if len(industries) > 0 and mentor_pref == "No Preference" or mentor_pref == mentee_gender and mentee_pref == "No Preference" or mentee_pref == mentor_gender:
+          temp_scores[i][j] += (10 * self.num_questions + 10 * np.sqrt(len(industries))) * 2
+        elif len(industries) > 0:
+          temp_scores[i][j] += 10 * self.num_questions + 10 * np.sqrt(len(industries))
 
     for i in range(self.mentor_df.shape[0]):
       for j in range(self.mentee_df.shape[0]):
-        residual_sum = (10 - (self.mentor_df.iloc[i,3+self.num_preferences:] - self.mentee_df.iloc[j,3+self.num_preferences:]).abs()).sum()
+        residual_sum = (10 - (self.mentor_df.iloc[i,2+self.num_preferences:self.width - 2] - self.mentee_df.iloc[j,2+self.num_preferences:self.width - 2]).abs()).sum()
         temp_scores[i][j] += residual_sum
 
-    # Normalize the data to range from 0 to self.base - 1 and add to scores
+    # Normalize the data to range from 0 to 99 and add to scores
     temp_scores = (temp_scores - temp_scores.min()) * 99 / (temp_scores.max() - temp_scores.min())    
     self.scores += temp_scores
 
@@ -145,10 +150,11 @@ class NameParser:
         self.pairs.loc[i,'Mentee Preference Number'] = mentee_pref.index(mentor_id) + 1
     self.pairs.to_csv('pairs.csv', index=False)
 
-df = pd.read_csv('input_data.csv')
+mentor_df = pd.read_csv('mentor_input_data.csv')
+mentee_df = pd.read_csv('mentee_input_data.csv')
 df2 = pd.read_csv('mentors.csv')
 df3 = pd.read_csv('mentees.csv')
-matcher = MatchingAlgorithm(df,15,7,15,10)
+matcher = MatchingAlgorithm(mentor_df,mentee_df,15,7,15,10)
 matcher.create_pairs()
 matcher.output_accuracy()
 parser = NameParser(matcher.pairs,df2,df3,matcher.mentor_top_pref,matcher.mentee_top_pref,200)
