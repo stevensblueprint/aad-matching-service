@@ -13,6 +13,24 @@ class ParticipantSchema(BaseModel):
     rankings: Dict[str, int]  # Rank 1 to Rank 7 as keys
 
 
+def test_no_null_values():
+    # Assuming processed CSV is generated as `processed_data.csv`
+    processed_csv_path = "processed_data.csv"
+    processed_data = pd.read_csv(processed_csv_path)
+
+    # Check for NaN values
+    assert (
+        not processed_data.isnull().values.any()
+    ), "There are NaN values in the processed data."
+
+    # Check for empty strings
+    assert not (
+        processed_data.map(lambda x: x == "").values.any()
+    ), "There are empty string values in the processed data."
+
+    print("No NaN or empty string values found in the processed data.")
+
+
 # Function to load and validate processed CSV against the schema
 def validate_processed_csv(file_path: str):
     processed_data = pd.read_csv(file_path)

@@ -96,7 +96,6 @@ def process_form_data(form_data_path):
     )
     combined_data = combined_data[schema_columns]
 
-    # TODO: Write a test to check that all preference and rank columns are ints
     # Convert all float values to int for the algorithm
     for i in range(1, 16):
         combined_data[f"preference_{i}"] = combined_data[f"preference_{i}"].astype(int)
