@@ -39,5 +39,20 @@ def test_processed_csv_schema():
         print(f"Validation error: {e}")
 
 
+def test_int_types():
+    # Assuming processed CSV is generated as `processed_data.csv`
+    processed_csv_path = "processed_data.csv"
+    processed_data = pd.read_csv(processed_csv_path)
+    for i in range(1, 16):
+        assert (
+            processed_data[f"preference_{i}"].dtype == "int64"
+        ), f"Column preference_{i} is not of type int"
+    for i in range(1, 7):
+        assert (
+            processed_data[f"rank_{i}"].dtype == "int64"
+        ), f"Column rank_{i} is not of type int"
+    print("All preference and rank columns are of type int.")
+
+
 # Run the test (This would typically be run using pytest)
 test_processed_csv_schema()
