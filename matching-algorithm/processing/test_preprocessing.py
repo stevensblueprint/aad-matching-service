@@ -13,6 +13,7 @@ class ParticipantSchema(BaseModel):
     rankings: Dict[str, int]  # Rank 1 to Rank 7 as keys
 
 
+# FIXME: On the algorithm side we may have to change in case people enter duplicate responses
 def test_no_null_values():
     # Assuming processed CSV is generated as `processed_data.csv`
     processed_csv_path = "processed_data.csv"
