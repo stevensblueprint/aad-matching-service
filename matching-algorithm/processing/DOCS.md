@@ -12,3 +12,8 @@ python preprocessing.py
 ```
 
 This will generate a file called `processed_data.csv` which can be used in the matching algorithm.
+
+# Bugs and Potential Issues:
+- What if users list the same preference multiple times?
+- What if users input a float?
+- How can we handle errors without interupting the entire process? Ideally we automatically process as much as possible and then output/highlight errors at the end
