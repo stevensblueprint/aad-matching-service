@@ -3,9 +3,10 @@ import pandas as pd
 import time
 
 class MatchingAlgorithm:
-  def __init__(self, mentor_df, mentee_df, num_preferences, num_questions, mentor_weight, mentee_weight):
-    self.mentor_df = mentor_df
-    self.mentee_df = mentee_df
+  def __init__(self, df, num_preferences, num_questions, mentor_weight, mentee_weight):
+    df = df.iloc[:,1:]
+    self.mentor_df = df[df.iloc[:, 0] == 'Mentor']
+    self.mentee_df = df[df.iloc[:, 0] == 'Mentee']
     self.num_preferences = num_preferences
     self.num_questions = num_questions
     self.size = self.mentor_df.shape[0]
@@ -150,11 +151,10 @@ class NameParser:
         self.pairs.loc[i,'Mentee Preference Number'] = mentee_pref.index(mentor_id) + 1
     self.pairs.to_csv('pairs.csv', index=False)
 
-mentor_df = pd.read_csv('mentor_input_data.csv')
-mentee_df = pd.read_csv('mentee_input_data.csv')
+df = pd.read_csv('processed_data.csv')
 df2 = pd.read_csv('mentors.csv')
 df3 = pd.read_csv('mentees.csv')
-matcher = MatchingAlgorithm(mentor_df,mentee_df,15,7,15,10)
+matcher = MatchingAlgorithm(df,15,6,15,10)
 matcher.create_pairs()
 matcher.output_accuracy()
 parser = NameParser(matcher.pairs,df2,df3,matcher.mentor_top_pref,matcher.mentee_top_pref,200)
