@@ -1,5 +1,20 @@
+from pathlib import Path
 import pandas as pd
 import random
+
+
+def read_directory(filepath):
+    """
+    filepath: the directory path to csv
+    returns: a dictionary where the key is the KIN ID and the value is a pandas series
+    """
+    df = pd.read_csv(filepath)
+    directory = {}
+
+    for index, row in df.iterrows():
+        directory[row["KIN ID"]] = row.drop("KIN ID")
+
+    return directory
 
 
 def generate_responses(mentee_directory, mentor_directory):
@@ -283,22 +298,14 @@ def generate_industries():
     return ";".join(selected_industries) + ";"
 
 
-def read_directory(filepath):
-    """
-    filepath: the directory path to csv
-    returns: a dictionary where the key is the KIN ID and the value is a pandas series
-    """
-    df = pd.read_csv(filepath)
-    directory = {}
-
-    for index, row in df.iterrows():
-        directory[row["KIN ID"]] = row.drop("KIN ID")
-
-    return directory
-
-
 if __name__ == "__main__":
-    mentee_directory = read_directory("mentee_directory_200.csv")
-    mentor_directory = read_directory("mentor_directory_200.csv")
+    src = Path(__file__).resolve().parent
+    root = src.parent
+
+    mentee_directory = read_directory(root / "data/mentee_directory_200.csv")
+    mentor_directory = read_directory(root / "data/mentor_directory_200.csv")
+
     responses = generate_responses(mentee_directory, mentor_directory)
-    responses.to_csv("matching_responses.csv", index=False)
+    output_dir = root / "data/outputs"
+    output_dir.mkdir(exist_ok=True)  # Create the folder if it doesn't exist
+    responses.to_csv(output_dir / "matching_responses.csv", index=False)
