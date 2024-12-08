@@ -4,13 +4,6 @@ This is an MVP for the AAD Kin Mentorship Matching Algorithm
 # Resources
 * [Shared Google Drive](https://drive.google.com/drive/folders/107hANTj3ZX6qOycbk2PjJY76QEWB_CDV)
 
-# Introduction
-This directory will hold the code for the matching algorithm. The matching algorithm will be written in Python. There are 2 tentative approaches we have for connecting
-the matching algorithm to the client:
-
-1. Compile the program to WebAssembly and run it in the browser.
-2. Run the program on server and have the client send requests to the server.
-
 # Setup
 
 This setup guide requires you to have the following installed on your machine:
