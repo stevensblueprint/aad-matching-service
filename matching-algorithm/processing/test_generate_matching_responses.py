@@ -7,7 +7,7 @@ def test_generate_matching_responses_shape():
     mentee_directory = read_directory("mentee_directory_15.csv")
     mentor_directory = read_directory("mentor_directory_15.csv")
     df = generate_responses(mentee_directory, mentor_directory)
-    assert df.shape[1] == 59, f"Expected 59 columns, but got {df.shape[1]}"
+    assert df.shape[1] == 60, f"Expected 60 columns, but got {df.shape[1]}"
 
 
 def test_read_diretory():
