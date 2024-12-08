@@ -1,7 +1,12 @@
+import pytest
 from pydantic import BaseModel, ValidationError
 from typing import List, Dict
+from pathlib import Path
 import pandas as pd
-import pytest
+
+from src.preprocessing import process_form_data
+
+data_dir = Path(__file__).resolve().parent.parent / "data"
 
 
 # Define the expected schema using Pydantic
@@ -13,11 +18,16 @@ class ParticipantSchema(BaseModel):
     rankings: Dict[str, int]  # Rank 1 to Rank 7 as keys
 
 
-# FIXME: On the algorithm side we may have to change in case people enter duplicate responses
-def test_no_null_values():
-    # Assuming processed CSV is generated as `processed_data.csv`
-    processed_csv_path = "processed_data.csv"
-    processed_data = pd.read_csv(processed_csv_path)
+@pytest.fixture
+def generate_processed_data():
+    raw_input_path = data_dir / "raw_inputs/matching_responses.csv"
+    processed_data = process_form_data(raw_input_path)
+    return processed_data
+
+
+def test_no_null_values(generate_processed_data: pd.DataFrame):
+    # generate_processed_data is a fixture that returns the processed data as a DataFrame
+    processed_data = generate_processed_data
 
     # Check for NaN values
     assert (
@@ -32,13 +42,12 @@ def test_no_null_values():
     print("No NaN or empty string values found in the processed data.")
 
 
-# Function to load and validate processed CSV against the schema
-def validate_processed_csv(file_path: str):
-    processed_data = pd.read_csv(file_path)
+def validate_processed_csv(processed_data: pd.DataFrame):
+    """Helper function to validate the processed CSV against the schema."""
     for _, row in processed_data.iterrows():
         participant_data = {
             "id": row["id"],
-            "role": row["Mentor or Mentee"],
+            "role": row["mentor_or_mentee"],
             "preferences": [row[f"preference_{i}"] for i in range(1, 16)],
             "industry": row["industry"].split(";"),
             "rankings": {f"rank_{i}": row[f"rank_{i}"] for i in range(1, 7)},
@@ -47,21 +56,17 @@ def validate_processed_csv(file_path: str):
         ParticipantSchema(**participant_data)
 
 
-# Test case
-def test_processed_csv_schema():
-    # Assuming processed CSV is generated as `processed_data.csv`
-    processed_csv_path = "processed_data.csv"
+def test_processed_csv_schema(generate_processed_data: pd.DataFrame):
+    processed_data = generate_processed_data
     try:
-        validate_processed_csv(processed_csv_path)
-        print("All rows in the processed CSV conform to the schema.")
+        validate_processed_csv(processed_data)
+        print("All rows in the processed DataFrame conform to the schema.")
     except ValidationError as e:
         print(f"Validation error: {e}")
 
 
-def test_int_types():
-    # Assuming processed CSV is generated as `processed_data.csv`
-    processed_csv_path = "processed_data.csv"
-    processed_data = pd.read_csv(processed_csv_path)
+def test_int_types(generate_processed_data: pd.DataFrame):
+    processed_data = generate_processed_data
     for i in range(1, 16):
         assert (
             processed_data[f"preference_{i}"].dtype == "int64"
@@ -73,5 +78,5 @@ def test_int_types():
     print("All preference and rank columns are of type int.")
 
 
-# Run the test (This would typically be run using pytest)
-test_processed_csv_schema()
+if __name__ == "__main__":
+    pytest.main()
