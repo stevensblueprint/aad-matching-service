@@ -1,6 +1,8 @@
 import pandas as pd
 
 # TODO: Try-Catch to handle and highlight errors
+# TODO: IDs should be retained from end to end to ensure consistency
+# TODO: keep all column names lowercase with underscores for consistency
 
 
 def process_form_data(form_data_path):
@@ -82,9 +84,13 @@ def process_form_data(form_data_path):
     mentors["mentor_or_mentee"] = "mentor"
     mentees["mentor_or_mentee"] = "mentee"
 
-    # TODO: Sort by ID first before dropping
     mentors = mentors.rename(columns=column_mapping_mentor)
     mentees = mentees.rename(columns=column_mapping_mentee)
+
+    # Sort By ID
+    mentors = mentors.sort_values(by="id")
+    mentees = mentees.sort_values(by="id")
+
     # Combine mentor and mentee data with the same schema
     combined_data = pd.concat([mentors, mentees], ignore_index=True)
 
