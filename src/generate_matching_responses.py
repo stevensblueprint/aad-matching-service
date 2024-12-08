@@ -3,6 +3,7 @@ import pandas as pd
 import random
 
 
+# TODO: this file performs a similar function to sample_data_generator.py
 def read_directory(filepath):
     """
     filepath: the directory path to csv
