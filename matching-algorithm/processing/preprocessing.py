@@ -19,69 +19,70 @@ def process_form_data(form_data_path):
 
     # Step 1: Retain common columns
     column_mapping_common = {
-        raw_data_df.columns[5]: "id",  # Participant ID
-        raw_data_df.columns[10]: "rank_1",  # First common rank question
-        raw_data_df.columns[11]: "rank_2",  # Second common rank question
-        raw_data_df.columns[12]: "rank_3",  # Third common rank question
-        raw_data_df.columns[13]: "rank_4",  # Fourth common rank question
-        raw_data_df.columns[
-            14
-        ]: "Mentor or Mentee",  # FIXME: can we change to mentor_or_mentee
+        raw_data_df.columns[5]: "id",
+        raw_data_df.columns[9]: "gender",
+        raw_data_df.columns[10]: "gender_preference",
+        raw_data_df.columns[11]: "rank_1",
+        raw_data_df.columns[12]: "rank_2",
+        raw_data_df.columns[13]: "rank_3",
+        raw_data_df.columns[14]: "rank_4",
+        raw_data_df.columns[15]: "mentor_or_mentee",
     }
 
     # Step 2: Process Mentor and Mentee-specific columns
     column_mapping_mentor = {
-        raw_data_df.columns[15]: "multiple_mentors",  # Multiple mentors
-        raw_data_df.columns[16]: "industry",  # Industry column for mentors
-        raw_data_df.columns[17]: "rank_5",  # Fifth rank question for mentors
-        raw_data_df.columns[18]: "rank_6",  # Sixth rank question for mentors
-        raw_data_df.columns[19]: "preference_1",  # First preference for mentors
-        raw_data_df.columns[20]: "preference_2",  # Second preference for mentors
-        raw_data_df.columns[21]: "preference_3",  # Third preference for mentors
-        raw_data_df.columns[22]: "preference_4",  # Fourth preference for mentors
-        raw_data_df.columns[23]: "preference_5",  # Fifth preference for mentors
-        raw_data_df.columns[24]: "preference_6",  # Sixth preference for mentors
-        raw_data_df.columns[25]: "preference_7",  # Seventh preference for mentors
-        raw_data_df.columns[26]: "preference_8",  # Eighth preference for mentors
-        raw_data_df.columns[27]: "preference_9",  # Ninth preference for mentors
-        raw_data_df.columns[28]: "preference_10",  # Tenth preference for mentors
-        raw_data_df.columns[29]: "preference_11",  # Eleventh preference for mentors
-        raw_data_df.columns[30]: "preference_12",  # Twelfth preference for mentors
-        raw_data_df.columns[31]: "preference_13",  # Thirteenth preference for mentors
-        raw_data_df.columns[32]: "preference_14",  # Fourteenth preference for mentors
-        raw_data_df.columns[33]: "preference_15",  # Fifteenth preference for mentors
+        raw_data_df.columns[16]: "multiple_mentors",
+        raw_data_df.columns[17]: "industry",
+        raw_data_df.columns[18]: "rank_5",
+        raw_data_df.columns[19]: "rank_6",
+        raw_data_df.columns[20]: "preference_1",
+        raw_data_df.columns[21]: "preference_2",
+        raw_data_df.columns[22]: "preference_3",
+        raw_data_df.columns[23]: "preference_4",
+        raw_data_df.columns[24]: "preference_5",
+        raw_data_df.columns[25]: "preference_6",
+        raw_data_df.columns[26]: "preference_7",
+        raw_data_df.columns[27]: "preference_8",
+        raw_data_df.columns[28]: "preference_9",
+        raw_data_df.columns[29]: "preference_10",
+        raw_data_df.columns[30]: "preference_11",
+        raw_data_df.columns[31]: "preference_12",
+        raw_data_df.columns[32]: "preference_13",
+        raw_data_df.columns[33]: "preference_14",
+        raw_data_df.columns[34]: "preference_15",
     }
 
     column_mapping_mentee = {
-        raw_data_df.columns[34]: "multiple_mentees",  # Multiple mentees
-        raw_data_df.columns[35]: "industry",  # Industry column for mentees
-        raw_data_df.columns[36]: "rank_5",  # Fifth rank question for mentees
-        raw_data_df.columns[37]: "rank_6",  # Sixth rank question for mentees
-        raw_data_df.columns[38]: "preference_1",  # First preference for mentees
-        raw_data_df.columns[39]: "preference_2",  # Second preference for mentees
-        raw_data_df.columns[40]: "preference_3",  # Third preference for mentees
-        raw_data_df.columns[41]: "preference_4",  # Fourth preference for mentees
-        raw_data_df.columns[42]: "preference_5",  # Fifth preference for mentees
-        raw_data_df.columns[43]: "preference_6",  # Sixth preference for mentees
-        raw_data_df.columns[44]: "preference_7",  # Seventh preference for mentees
-        raw_data_df.columns[45]: "preference_8",  # Eighth preference for mentees
-        raw_data_df.columns[46]: "preference_9",  # Ninth preference for mentees
-        raw_data_df.columns[47]: "preference_10",  # Tenth preference for mentees
-        raw_data_df.columns[48]: "preference_11",  # Eleventh preference for mentees
-        raw_data_df.columns[49]: "preference_12",  # Twelfth preference for mentees
-        raw_data_df.columns[50]: "preference_13",  # Thirteenth preference for mentees
-        raw_data_df.columns[51]: "preference_14",  # Fourteenth preference for mentees
-        raw_data_df.columns[52]: "preference_15",  # Fifteenth preference for mentees
+        raw_data_df.columns[35]: "multiple_mentees",
+        raw_data_df.columns[36]: "industry",
+        raw_data_df.columns[37]: "rank_5",
+        raw_data_df.columns[38]: "rank_6",
+        raw_data_df.columns[39]: "preference_1",
+        raw_data_df.columns[40]: "preference_2",
+        raw_data_df.columns[41]: "preference_3",
+        raw_data_df.columns[42]: "preference_4",
+        raw_data_df.columns[43]: "preference_5",
+        raw_data_df.columns[44]: "preference_6",
+        raw_data_df.columns[45]: "preference_7",
+        raw_data_df.columns[46]: "preference_8",
+        raw_data_df.columns[47]: "preference_9",
+        raw_data_df.columns[48]: "preference_10",
+        raw_data_df.columns[49]: "preference_11",
+        raw_data_df.columns[50]: "preference_12",
+        raw_data_df.columns[51]: "preference_13",
+        raw_data_df.columns[52]: "preference_14",
+        raw_data_df.columns[53]: "preference_15",
     }
 
     raw_data_df = raw_data_df.rename(columns=column_mapping_common)
 
-    mentors = raw_data_df[raw_data_df["Mentor or Mentee"] == "Kin Mentor"].copy()
-    mentees = raw_data_df[raw_data_df["Mentor or Mentee"] == "Kin Mentee"].copy()
+    mentors = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentor"].copy()
+    mentees = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentee"].copy()
 
-    mentors["Mentor or Mentee"] = "Mentor"
-    mentees["Mentor or Mentee"] = "Mentee"
+    mentors["mentor_or_mentee"] = "mentor"
+    mentees["mentor_or_mentee"] = "mentee"
 
+    # TODO: Sort by ID first before dropping
     mentors = mentors.rename(columns=column_mapping_mentor)
     mentees = mentees.rename(columns=column_mapping_mentee)
     # Combine mentor and mentee data with the same schema
@@ -89,10 +90,14 @@ def process_form_data(form_data_path):
 
     # Retain the desired schema order
     schema_columns = (
-        ["id", "Mentor or Mentee"]
+        [
+            "id",
+            "mentor_or_mentee",
+        ]
         + [f"preference_{i}" for i in range(1, 16)]
         + ["industry"]
         + [f"rank_{i}" for i in range(1, 7)]
+        + ["gender", "gender_preference"]
     )
     combined_data = combined_data[schema_columns]
 

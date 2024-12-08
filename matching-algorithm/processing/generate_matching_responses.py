@@ -20,6 +20,7 @@ def generate_responses(mentee_directory, mentor_directory):
         "First Name": [],
         "Last Name": [],
         "Email Address": [],
+        "To which gender identity do you most identify?": [],
         "Please indicate if you have a preference for what gender your mentor/mentee is:": [],
         "How important is accessing and developing a professional AAPI network?": [],
         "How open are you to exploring topics outside of your immediate career or academic focus in the mentorship?": [],
@@ -89,6 +90,9 @@ def generate_responses(mentee_directory, mentor_directory):
             "First Name": mentee_directory[mentee]["First Name"],
             "Last Name": mentee_directory[mentee]["Last Name"],
             "Email Address": mentee_directory[mentee]["Email"],
+            "To which gender identity do you most identify?": random.choice(
+                ["Male", "Female", "Nonbinary/Fluid/Gender Queer"]
+            ),
             "Please indicate if you have a preference for what gender your mentor/mentee is:": random.choice(
                 ["Male", "Female", "Nonbinary/Fluid/Gender Queer", "No Preference"]
             ),
@@ -160,6 +164,9 @@ def generate_responses(mentee_directory, mentor_directory):
             "First Name": mentor_directory[mentor]["First Name"],
             "Last Name": mentor_directory[mentor]["Last Name"],
             "Email Address": mentor_directory[mentor]["Email"],
+            "To which gender identity do you most identify?": random.choice(
+                ["Male", "Female", "Nonbinary/Fluid/Gender Queer"]
+            ),
             "Please indicate if you have a preference for what gender your mentor/mentee is:": random.choice(
                 ["Male", "Female", "Nonbinary/Fluid/Gender Queer", "No Preference"]
             ),
