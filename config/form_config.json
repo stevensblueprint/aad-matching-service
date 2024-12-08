@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "preferences": {
+      "type": "list",
+      "length": 15,
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": false
+    },
+    "industry": {
+      "type": "string",
+      "required": true,
+      "delimiter": ";"
+    },
+    "preference_1": {
+      "label": "Who is your #1 Kin Mentor preference?",
+      "type": "int",
+      "required": true
+    }
+  },
+  "preference_fields": [
+    "preferences",
+    "industry"
+  ]
+}
