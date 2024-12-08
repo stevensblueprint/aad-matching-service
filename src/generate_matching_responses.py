@@ -306,6 +306,6 @@ if __name__ == "__main__":
     mentor_directory = read_directory(root / "data/mentor_directory_200.csv")
 
     responses = generate_responses(mentee_directory, mentor_directory)
-    output_dir = root / "data/outputs"
+    output_dir = root / "data/raw_inputs"
     output_dir.mkdir(exist_ok=True)  # Create the folder if it doesn't exist
     responses.to_csv(output_dir / "matching_responses.csv", index=False)

@@ -1,3 +1,4 @@
+from pathlib import Path
 import pandas as pd
 
 # TODO: Try-Catch to handle and highlight errors
@@ -114,11 +115,17 @@ def process_form_data(form_data_path):
     for i in range(1, 7):
         combined_data[f"rank_{i}"] = combined_data[f"rank_{i}"].astype(int)
 
-    # Step 3: Save the processed data to a CSV file
-    combined_data.to_csv("processed_data.csv", index=False)
-    print("Processed data saved to 'processed_data.csv'.")
+    return combined_data
 
 
 if __name__ == "__main__":
-    # Provide the path to your raw form data CSV file
-    process_form_data("matching_responses.csv")
+    src = Path(__file__).resolve().parent
+    root = src.parent
+
+    raw_inputs_dir = root / "data/raw_inputs"
+    processed_data = process_form_data(raw_inputs_dir / "matching_responses.csv")
+
+    # Save the processed data to a CSV file
+    processed_dir = root / "data/processed"
+    processed_dir.mkdir(exist_ok=True)
+    processed_data.to_csv(processed_dir / "processed_data.csv", index=False)
