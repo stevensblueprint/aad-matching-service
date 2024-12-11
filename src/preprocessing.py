@@ -82,8 +82,8 @@ def process_form_data(form_data_path):
     mentors = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentor"].copy()
     mentees = raw_data_df[raw_data_df["mentor_or_mentee"] == "Kin Mentee"].copy()
 
-    mentors["mentor_or_mentee"] = "mentor"
-    mentees["mentor_or_mentee"] = "mentee"
+    mentors["mentor_or_mentee"] = "Mentor"
+    mentees["mentor_or_mentee"] = "Mentee"
 
     mentors = mentors.rename(columns=column_mapping_mentor)
     mentees = mentees.rename(columns=column_mapping_mentee)
