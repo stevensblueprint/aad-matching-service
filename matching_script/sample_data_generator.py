@@ -27,6 +27,8 @@ class RandomDataGenerator:
     ids = [i for i in range(0, self.num_people)]
     ids.extend(ids)
     self.df['ID'] = ids
+    self.df.loc[:200, "Mentor or Mentee?"] = "Mentor"
+    self.df.loc[200:, "Mentor or Mentee?"] = "Mentee"
 
     for i in range(0, self.num_people * 2):
       self.df.loc[i, [f'Preference {j+1}' for j in range(self.num_preferences)]] = 0
@@ -84,11 +86,8 @@ class RandomDataGenerator:
       self.df[f'Rank {i+1}'] = self.df[f'Rank {i+1}'].astype(int)
   
   def export(self):
-    mentor_df = self.df.iloc[:200,:]
-    mentee_df = self.df.iloc[200:,:]
-    mentor_df.to_csv('mentor_input_data.csv', index=False)
-    mentee_df.to_csv('mentee_input_data.csv', index=False)
+    self.df.to_csv('input_data.csv', index=False)
 
-rg = RandomDataGenerator(200,15,7)
+rg = RandomDataGenerator(200,15,6)
 rg.create()
 rg.export()

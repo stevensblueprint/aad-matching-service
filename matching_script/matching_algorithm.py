@@ -151,7 +151,7 @@ class NameParser:
         self.pairs.loc[i,'Mentee Preference Number'] = mentee_pref.index(mentor_id) + 1
     self.pairs.to_csv('pairs.csv', index=False)
 
-df = pd.read_csv('processed_data.csv')
+df = pd.read_csv('input_data.csv')
 df2 = pd.read_csv('mentors.csv')
 df3 = pd.read_csv('mentees.csv')
 matcher = MatchingAlgorithm(df,15,6,15,10)
